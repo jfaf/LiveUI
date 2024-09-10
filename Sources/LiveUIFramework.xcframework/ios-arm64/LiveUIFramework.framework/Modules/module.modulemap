@@ -1,0 +1,6 @@
+framework module LiveUIFramework {
+  umbrella header "LiveUIFramework.h"
+  export *
+
+  module * { export * }
+}
