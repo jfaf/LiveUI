@@ -261,6 +261,7 @@ public struct SDK {
   public static func configure(apiKey: Swift.String) async
   #endif
   public static func doSomeWork()
+  public static func tokens(for label: Swift.String) -> [LiveUIFramework.Molecule]
 }
 public struct CheckButtonData {
   public init(id: Swift.String, leadingSlot: [Swift.String], centerSlot: Swift.String?, isSelected: Swift.Bool)

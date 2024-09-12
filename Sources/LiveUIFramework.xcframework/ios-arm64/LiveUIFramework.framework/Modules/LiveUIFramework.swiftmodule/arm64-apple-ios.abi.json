@@ -5752,6 +5752,42 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tokens",
+            "printedName": "tokens(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LiveUIFramework.Molecule]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Molecule",
+                    "printedName": "LiveUIFramework.Molecule",
+                    "usr": "s:15LiveUIFramework8MoleculeV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework3SDKV6tokens3forSayAA8MoleculeVGSS_tFZ",
+            "mangledName": "$s15LiveUIFramework3SDKV6tokens3forSayAA8MoleculeVGSS_tFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
