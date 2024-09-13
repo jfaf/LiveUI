@@ -5760,17 +5760,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[LiveUIFramework.Molecule]",
+                "name": "Optional",
+                "printedName": "Any?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Molecule",
-                    "printedName": "LiveUIFramework.Molecule",
-                    "usr": "s:15LiveUIFramework8MoleculeV"
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
                   }
                 ],
-                "usr": "s:Sa"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -5780,8 +5779,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15LiveUIFramework3SDKV6tokens3forSayAA8MoleculeVGSS_tFZ",
-            "mangledName": "$s15LiveUIFramework3SDKV6tokens3forSayAA8MoleculeVGSS_tFZ",
+            "usr": "s:15LiveUIFramework3SDKV6tokens3forypSgSS_tFZ",
+            "mangledName": "$s15LiveUIFramework3SDKV6tokens3forypSgSS_tFZ",
             "moduleName": "LiveUIFramework",
             "static": true,
             "declAttributes": [
