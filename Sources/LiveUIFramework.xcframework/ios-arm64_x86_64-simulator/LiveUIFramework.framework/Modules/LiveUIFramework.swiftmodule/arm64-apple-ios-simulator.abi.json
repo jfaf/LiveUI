@@ -3138,6 +3138,23 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "LiveUIFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "RawDocComment"
@@ -5705,6 +5722,39 @@
         "name": "SDK",
         "printedName": "SDK",
         "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(email:projectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework3SDKV9configure5email9projectIdySS_SStYaFZ",
+            "mangledName": "$s15LiveUIFramework3SDKV9configure5email9projectIdySS_SStYaFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "configure",
@@ -19691,7 +19741,7 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/SDK.swift",
       "kind": "Array",
-      "offset": 691,
+      "offset": 836,
       "length": 2,
       "value": "[]"
     },

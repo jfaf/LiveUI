@@ -258,6 +258,9 @@ public struct TextInputData {
 
 public struct SDK {
   #if compiler(>=5.3) && $AsyncAwait
+  public static func configure(email: Swift.String, projectId: Swift.String) async
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
   public static func configure(apiKey: Swift.String) async
   #endif
   public static func doSomeWork()
