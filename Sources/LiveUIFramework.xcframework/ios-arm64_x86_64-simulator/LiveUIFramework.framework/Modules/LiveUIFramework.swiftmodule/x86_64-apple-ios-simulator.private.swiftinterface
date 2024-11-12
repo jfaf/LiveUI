@@ -71,7 +71,7 @@ public struct SecureTextInput : SwiftUI.View {
 }
 
 public struct Atom : Swift.Codable, Swift.Hashable {
-  public init(itemName: Swift.String? = nil, type: Swift.String? = nil, version: Swift.String? = nil, cornerRadiusTopRight: Swift.Int? = nil, cornerRadiusTopLeft: Swift.Int? = nil, cornerRadiusBottomRight: Swift.Int? = nil, cornerRadiusBottomLeft: Swift.Int? = nil, paddingLeft: Swift.Int? = nil, paddingTop: Swift.Int? = nil, paddingRight: Swift.Int? = nil, paddingBottom: Swift.Int? = nil, width: Swift.Int? = nil, relativeWidth: CoreFoundation.CGFloat? = nil, height: Swift.Int? = nil, relativeHeight: CoreFoundation.CGFloat? = nil, fill: Swift.String? = nil, opacity: CoreFoundation.CGFloat? = nil, stroke: Swift.String? = nil, strokeWidth: Swift.Int? = nil, backgroundColor: Swift.String? = nil, focusColor: Swift.String? = nil, objectId: Swift.String? = nil, font: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.String? = nil, alignment: Swift.String? = nil, multilineAlignment: Swift.String? = nil, aspectRatioType: Swift.String? = nil)
+  public init(itemName: Swift.String? = nil, type: Swift.String? = nil, version: Swift.String? = nil, cornerRadiusTopRight: Swift.Int? = nil, cornerRadiusTopLeft: Swift.Int? = nil, cornerRadiusBottomRight: Swift.Int? = nil, cornerRadiusBottomLeft: Swift.Int? = nil, paddingLeft: Swift.Int? = nil, paddingTop: Swift.Int? = nil, paddingRight: Swift.Int? = nil, paddingBottom: Swift.Int? = nil, width: Swift.Int? = nil, relativeWidth: CoreFoundation.CGFloat? = nil, height: Swift.Int? = nil, relativeHeight: CoreFoundation.CGFloat? = nil, fill: Swift.String? = nil, opacity: CoreFoundation.CGFloat? = nil, stroke: Swift.String? = nil, strokeWidth: Swift.Int? = nil, strokeOpacity: CoreFoundation.CGFloat? = nil, backgroundColor: Swift.String? = nil, focusColor: Swift.String? = nil, objectId: Swift.String? = nil, font: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.String? = nil, alignment: Swift.String? = nil, multilineAlignment: Swift.String? = nil, aspectRatioType: Swift.String? = nil)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: LiveUIFramework.Atom, b: LiveUIFramework.Atom) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -313,6 +313,7 @@ public struct TransactionItem : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework15TransactionItemV4bodyQrvp", 0) __
 }
+
 
 
 public struct TransactionItemTokens {
