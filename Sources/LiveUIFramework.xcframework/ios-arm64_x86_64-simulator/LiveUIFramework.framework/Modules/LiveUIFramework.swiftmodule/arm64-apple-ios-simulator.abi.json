@@ -1860,27 +1860,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(background:centerSlot:)",
+            "printedName": "init(centerSlot:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ProgressTokens",
                 "printedName": "LiveUIFramework.ProgressTokens",
                 "usr": "s:15LiveUIFramework14ProgressTokensV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "LiveUIFramework.Atom?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Atom",
-                    "printedName": "LiveUIFramework.Atom",
-                    "usr": "s:15LiveUIFramework4AtomV"
-                  }
-                ],
-                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1898,8 +1884,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15LiveUIFramework14ProgressTokensV10background10centerSlotAcA4AtomVSg_AA8MoleculeVSgtcfc",
-            "mangledName": "$s15LiveUIFramework14ProgressTokensV10background10centerSlotAcA4AtomVSg_AA8MoleculeVSgtcfc",
+            "usr": "s:15LiveUIFramework14ProgressTokensV10centerSlotAcA8MoleculeVSg_tcfc",
+            "mangledName": "$s15LiveUIFramework14ProgressTokensV10centerSlotAcA8MoleculeVSg_tcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
               "AccessControl"
@@ -13347,322 +13333,322 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2788,
+      "offset": 2704,
       "length": 17,
       "value": "\"horizontalBadge\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2826,
+      "offset": 2742,
       "length": 12,
       "value": "\"background\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2846,
+      "offset": 2762,
       "length": 8,
       "value": "\"aabbcc\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2868,
+      "offset": 2784,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2890,
+      "offset": 2806,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 2902,
+      "offset": 2818,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2828,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2934,
+      "offset": 2850,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2948,
+      "offset": 2864,
       "length": 8,
       "value": "\"00be2e\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 2971,
+      "offset": 2887,
       "length": 10,
       "value": "\"molecule\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "Array",
-      "offset": 3012,
+      "offset": 2928,
       "length": 18,
       "value": "[\"person\", \"test\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3063,
+      "offset": 2979,
       "length": 12,
       "value": "\"cta button\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3049,
       "length": 11,
       "value": "\"ctaButton\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3237,
+      "offset": 3153,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3261,
+      "offset": 3177,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3289,
+      "offset": 3205,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3316,
+      "offset": 3232,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3332,
+      "offset": 3248,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3350,
+      "offset": 3266,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "FloatLiteral",
-      "offset": 3369,
+      "offset": 3285,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3382,
+      "offset": 3298,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3308,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3442,
+      "offset": 3358,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3470,
+      "offset": 3386,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3488,
+      "offset": 3404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3498,
+      "offset": 3414,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3510,
+      "offset": 3426,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3520,
+      "offset": 3436,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3570,
+      "offset": 3486,
       "length": 15,
       "value": "\"underlineText\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3593,
+      "offset": 3509,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3643,
+      "offset": 3559,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3672,
+      "offset": 3588,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3682,
+      "offset": 3598,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 3694,
+      "offset": 3610,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3704,
+      "offset": 3620,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3755,
+      "offset": 3671,
       "length": 10,
       "value": "\"molecule\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "Array",
-      "offset": 3804,
+      "offset": 3720,
       "length": 33,
       "value": "[\"person\", \"test\", \"arrow.right\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3871,
+      "offset": 3787,
       "length": 15,
       "value": "\"progress view\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 3944,
+      "offset": 3860,
       "length": 10,
       "value": "\"progress\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 4031,
+      "offset": 3947,
       "length": 8,
       "value": "\"484848\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4088,
+      "offset": 4004,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4106,
+      "offset": 4022,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "IntegerLiteral",
-      "offset": 4125,
+      "offset": 4041,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 4135,
+      "offset": 4051,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
+      "offset": 4103,
       "length": 10,
       "value": "\"molecule\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsMoleculeType.swift",
       "kind": "Array",
-      "offset": 4236,
+      "offset": 4152,
       "length": 13,
       "value": "[\"22\", \"100\"]"
     },
@@ -17911,56 +17897,56 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "IntegerLiteral",
-      "offset": 778,
+      "offset": 802,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "IntegerLiteral",
-      "offset": 789,
+      "offset": 813,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "StringLiteral",
-      "offset": 898,
-      "length": 8,
-      "value": "\"484848\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
-      "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 926,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "IntegerLiteral",
-      "offset": 1027,
+      "offset": 981,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "IntegerLiteral",
-      "offset": 1045,
+      "offset": 999,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1009,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
       "kind": "StringLiteral",
-      "offset": 1099,
+      "offset": 1036,
+      "length": 8,
+      "value": "\"484848\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
       "length": 2,
       "value": "\"\""
     },
@@ -18652,3564 +18638,3564 @@
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
-      "kind": "StringLiteral",
-      "offset": 6168,
-      "length": 8,
-      "value": "\"484848\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 6233,
+      "offset": 6175,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 6251,
+      "offset": 6193,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 6270,
+      "offset": 6212,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 6280,
+      "offset": 6222,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 6340,
+      "offset": 6249,
+      "length": 8,
+      "value": "\"484848\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
+      "kind": "StringLiteral",
+      "offset": 6309,
       "length": 10,
       "value": "\"molecule\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6413,
+      "offset": 6382,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6441,
+      "offset": 6410,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6469,
+      "offset": 6438,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6497,
+      "offset": 6466,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6568,
+      "offset": 6537,
       "length": 54,
       "value": "[\"** 0125\", \"\", \"photo\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6636,
+      "offset": 6605,
       "length": 65,
       "value": "[\"14 Card transactions in January\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6717,
+      "offset": 6686,
       "length": 13,
       "value": "[\"22\", \"100\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6756,
+      "offset": 6725,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6784,
+      "offset": 6753,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6812,
+      "offset": 6781,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 6840,
+      "offset": 6809,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 6887,
+      "offset": 6856,
       "length": 9,
       "value": "\"see all\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7004,
+      "offset": 6973,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7028,
+      "offset": 6997,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7056,
+      "offset": 7025,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7083,
+      "offset": 7052,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7099,
+      "offset": 7068,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7116,
+      "offset": 7085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 7134,
+      "offset": 7103,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7148,
+      "offset": 7117,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7159,
+      "offset": 7128,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7180,
+      "offset": 7149,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7249,
+      "offset": 7218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7293,
+      "offset": 7262,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7307,
+      "offset": 7276,
       "length": 8,
       "value": "\"ffff00\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7347,
+      "offset": 7316,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7437,
+      "offset": 7406,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7481,
+      "offset": 7450,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7509,
+      "offset": 7478,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7524,
+      "offset": 7493,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7541,
+      "offset": 7510,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7550,
+      "offset": 7519,
       "length": 8,
       "value": "\"ffff00\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7590,
+      "offset": 7559,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7652,
+      "offset": 7621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7696,
+      "offset": 7665,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7724,
+      "offset": 7693,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7739,
+      "offset": 7708,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7756,
+      "offset": 7725,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7765,
+      "offset": 7734,
       "length": 8,
       "value": "\"00ffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7806,
+      "offset": 7775,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7868,
+      "offset": 7837,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7912,
+      "offset": 7881,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7940,
+      "offset": 7909,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7955,
+      "offset": 7924,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 7972,
+      "offset": 7941,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 7981,
+      "offset": 7950,
       "length": 8,
       "value": "\"ff00ff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8022,
+      "offset": 7991,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8114,
+      "offset": 8083,
       "length": 11,
       "value": "\"ctaButton\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8183,
+      "offset": 8152,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8207,
+      "offset": 8176,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8235,
+      "offset": 8204,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8262,
+      "offset": 8231,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8278,
+      "offset": 8247,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8294,
+      "offset": 8263,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8312,
+      "offset": 8281,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8330,
+      "offset": 8299,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 8349,
+      "offset": 8318,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8362,
+      "offset": 8331,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8372,
+      "offset": 8341,
       "length": 8,
       "value": "\"00ff00\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8414,
+      "offset": 8383,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 8429,
+      "offset": 8398,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8439,
+      "offset": 8408,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8481,
+      "offset": 8450,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8495,
+      "offset": 8464,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 8536,
+      "offset": 8505,
       "length": 10,
       "value": "\"molecule\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8609,
+      "offset": 8578,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8637,
+      "offset": 8606,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8665,
+      "offset": 8634,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8693,
+      "offset": 8662,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8767,
+      "offset": 8736,
       "length": 58,
       "value": "[\"Boosted xPoints in March\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8839,
+      "offset": 8808,
       "length": 65,
       "value": "[\"photo\", \"photo.tv\", \"photo.fill\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8920,
+      "offset": 8889,
       "length": 44,
       "value": "[\"\", \"See all\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 8990,
+      "offset": 8959,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 9018,
+      "offset": 8987,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 9046,
+      "offset": 9015,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 9074,
+      "offset": 9043,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9121,
+      "offset": 9090,
       "length": 19,
       "value": "\"available balance\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9248,
+      "offset": 9217,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9272,
+      "offset": 9241,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9300,
+      "offset": 9269,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9327,
+      "offset": 9296,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9343,
+      "offset": 9312,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9360,
+      "offset": 9329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9370,
+      "offset": 9339,
       "length": 2,
       "value": "71"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 9382,
+      "offset": 9351,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9392,
+      "offset": 9361,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9422,
+      "offset": 9391,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9491,
+      "offset": 9460,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9535,
+      "offset": 9504,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 9558,
+      "offset": 9527,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9569,
+      "offset": 9538,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9589,
+      "offset": 9558,
       "length": 4,
       "value": "\"20\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9607,
+      "offset": 9576,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9644,
+      "offset": 9613,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9734,
+      "offset": 9703,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9778,
+      "offset": 9747,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9792,
+      "offset": 9761,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9812,
+      "offset": 9781,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9830,
+      "offset": 9799,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9858,
+      "offset": 9827,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 9898,
+      "offset": 9867,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 9957,
+      "offset": 9926,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 9985,
+      "offset": 9954,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10013,
+      "offset": 9982,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10041,
+      "offset": 10010,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10069,
+      "offset": 10038,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10143,
+      "offset": 10112,
       "length": 37,
       "value": "[\"$10\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10194,
+      "offset": 10163,
       "length": 39,
       "value": "[\"100XP\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10249,
+      "offset": 10218,
       "length": 44,
       "value": "[\"\", \"See all\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10319,
+      "offset": 10288,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10347,
+      "offset": 10316,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10375,
+      "offset": 10344,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 10403,
+      "offset": 10372,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10450,
+      "offset": 10419,
       "length": 16,
       "value": "\"invite friends\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10574,
+      "offset": 10543,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10598,
+      "offset": 10567,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10626,
+      "offset": 10595,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10653,
+      "offset": 10622,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10669,
+      "offset": 10638,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10686,
+      "offset": 10655,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 10704,
+      "offset": 10673,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10718,
+      "offset": 10687,
       "length": 3,
       "value": "183"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10729,
+      "offset": 10698,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10759,
+      "offset": 10728,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10829,
+      "offset": 10798,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10873,
+      "offset": 10842,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 10901,
+      "offset": 10870,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 10919,
+      "offset": 10888,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10930,
+      "offset": 10899,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10950,
+      "offset": 10919,
       "length": 4,
       "value": "\"20\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 10968,
+      "offset": 10937,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11005,
+      "offset": 10974,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11095,
+      "offset": 11064,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11139,
+      "offset": 11108,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 11160,
+      "offset": 11129,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 11175,
+      "offset": 11144,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 11193,
+      "offset": 11162,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11202,
+      "offset": 11171,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11222,
+      "offset": 11191,
       "length": 4,
       "value": "\"20\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11240,
+      "offset": 11209,
       "length": 5,
       "value": "\"700\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11268,
+      "offset": 11237,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11308,
+      "offset": 11277,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11383,
+      "offset": 11352,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11423,
+      "offset": 11392,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 11444,
+      "offset": 11413,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 11461,
+      "offset": 11430,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11470,
+      "offset": 11439,
       "length": 8,
       "value": "\"9E9E9E\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11490,
+      "offset": 11459,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11508,
+      "offset": 11477,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11536,
+      "offset": 11505,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 11573,
+      "offset": 11542,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11642,
+      "offset": 11611,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11670,
+      "offset": 11639,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11698,
+      "offset": 11667,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11726,
+      "offset": 11695,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11800,
+      "offset": 11769,
       "length": 51,
       "value": "[\"person.badge.plus\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11865,
+      "offset": 11834,
       "length": 48,
       "value": "[\"Invite friends\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 11929,
+      "offset": 11898,
       "length": 82,
       "value": "[\"Get 1000 xPoints for every friend that joins XP!\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 12037,
+      "offset": 12006,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 12065,
+      "offset": 12034,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 12093,
+      "offset": 12062,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 12121,
+      "offset": 12090,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12168,
+      "offset": 12137,
       "length": 15,
       "value": "\"points earned\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12291,
+      "offset": 12260,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12316,
+      "offset": 12285,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12345,
+      "offset": 12314,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12373,
+      "offset": 12342,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12390,
+      "offset": 12359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12407,
+      "offset": 12376,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 12425,
+      "offset": 12394,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12439,
+      "offset": 12408,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12449,
+      "offset": 12418,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12479,
+      "offset": 12448,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12549,
+      "offset": 12518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12593,
+      "offset": 12562,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12614,
+      "offset": 12583,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 12633,
+      "offset": 12602,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12644,
+      "offset": 12613,
       "length": 8,
       "value": "\"0C0C0C\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12664,
+      "offset": 12633,
       "length": 4,
       "value": "\"20\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12682,
+      "offset": 12651,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12719,
+      "offset": 12688,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12809,
+      "offset": 12778,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12853,
+      "offset": 12822,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 12874,
+      "offset": 12843,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12884,
+      "offset": 12853,
       "length": 8,
       "value": "\"4F4F52\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12904,
+      "offset": 12873,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12922,
+      "offset": 12891,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12950,
+      "offset": 12919,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 12990,
+      "offset": 12959,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13049,
+      "offset": 13018,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13077,
+      "offset": 13046,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13105,
+      "offset": 13074,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13133,
+      "offset": 13102,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13161,
+      "offset": 13130,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13235,
+      "offset": 13204,
       "length": 45,
       "value": "[\"100 xPoints\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13294,
+      "offset": 13263,
       "length": 40,
       "value": "[\"Earned\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13350,
+      "offset": 13319,
       "length": 44,
       "value": "[\"\", \"See all\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13420,
+      "offset": 13389,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13448,
+      "offset": 13417,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13476,
+      "offset": 13445,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 13504,
+      "offset": 13473,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 13551,
+      "offset": 13520,
       "length": 15,
       "value": "\"partner offer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13674,
+      "offset": 13643,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13698,
+      "offset": 13667,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13726,
+      "offset": 13695,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13753,
+      "offset": 13722,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13769,
+      "offset": 13738,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13786,
+      "offset": 13755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 13804,
+      "offset": 13773,
       "length": 4,
       "value": "0.45"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13818,
+      "offset": 13787,
       "length": 3,
       "value": "102"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 13829,
+      "offset": 13798,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 13850,
+      "offset": 13819,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 13919,
+      "offset": 13888,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 13963,
+      "offset": 13932,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 13991,
+      "offset": 13960,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14009,
+      "offset": 13978,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14019,
+      "offset": 13988,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14059,
+      "offset": 14028,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14121,
+      "offset": 14090,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14165,
+      "offset": 14134,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14186,
+      "offset": 14155,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14196,
+      "offset": 14165,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14216,
+      "offset": 14185,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14234,
+      "offset": 14203,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14271,
+      "offset": 14240,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14333,
+      "offset": 14302,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14377,
+      "offset": 14346,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14400,
+      "offset": 14369,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14418,
+      "offset": 14387,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14427,
+      "offset": 14396,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14467,
+      "offset": 14436,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14557,
+      "offset": 14526,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14601,
+      "offset": 14570,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14622,
+      "offset": 14591,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14641,
+      "offset": 14610,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14651,
+      "offset": 14620,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14681,
+      "offset": 14650,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14722,
+      "offset": 14691,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14784,
+      "offset": 14753,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14828,
+      "offset": 14797,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 14851,
+      "offset": 14820,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14861,
+      "offset": 14830,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14891,
+      "offset": 14860,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14932,
+      "offset": 14901,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 14994,
+      "offset": 14963,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15038,
+      "offset": 15007,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 15063,
+      "offset": 15032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15072,
+      "offset": 15041,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15102,
+      "offset": 15071,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15143,
+      "offset": 15112,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15205,
+      "offset": 15174,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15249,
+      "offset": 15218,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 15278,
+      "offset": 15247,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 15297,
+      "offset": 15266,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 15308,
+      "offset": 15277,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 15320,
+      "offset": 15289,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15330,
+      "offset": 15299,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15360,
+      "offset": 15329,
       "length": 9,
       "value": "\"leading\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15401,
+      "offset": 15370,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15460,
+      "offset": 15429,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15488,
+      "offset": 15457,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15516,
+      "offset": 15485,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15544,
+      "offset": 15513,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15572,
+      "offset": 15541,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15646,
+      "offset": 15615,
       "length": 51,
       "value": "[\"photo\", \"Wolt\", \"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15711,
+      "offset": 15680,
       "length": 64,
       "value": "[\"up to\", \"17%\", \"\", \"gobackward\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15791,
+      "offset": 15760,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15819,
+      "offset": 15788,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15847,
+      "offset": 15816,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15875,
+      "offset": 15844,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 15903,
+      "offset": 15872,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 15950,
+      "offset": 15919,
       "length": 19,
       "value": "\"payment confirmed\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16077,
+      "offset": 16046,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16101,
+      "offset": 16070,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16129,
+      "offset": 16098,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16156,
+      "offset": 16125,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16172,
+      "offset": 16141,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16190,
+      "offset": 16159,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16209,
+      "offset": 16178,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16220,
+      "offset": 16189,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16231,
+      "offset": 16200,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16252,
+      "offset": 16221,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16321,
+      "offset": 16290,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16365,
+      "offset": 16334,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16388,
+      "offset": 16357,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16397,
+      "offset": 16366,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16417,
+      "offset": 16386,
       "length": 4,
       "value": "\"24\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16435,
+      "offset": 16404,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16472,
+      "offset": 16441,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16562,
+      "offset": 16531,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16606,
+      "offset": 16575,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16629,
+      "offset": 16598,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16639,
+      "offset": 16608,
       "length": 8,
       "value": "\"EBEBF5\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 16658,
+      "offset": 16627,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16673,
+      "offset": 16642,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16691,
+      "offset": 16660,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16728,
+      "offset": 16697,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 16820,
+      "offset": 16789,
       "length": 11,
       "value": "\"ctaButton\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16889,
+      "offset": 16858,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16914,
+      "offset": 16883,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16943,
+      "offset": 16912,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16971,
+      "offset": 16940,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 16988,
+      "offset": 16957,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 17004,
+      "offset": 16973,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 17022,
+      "offset": 16991,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 17040,
+      "offset": 17009,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 17051,
+      "offset": 17020,
       "length": 3,
       "value": "139"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 17064,
+      "offset": 17033,
       "length": 2,
       "value": "39"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17074,
+      "offset": 17043,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 17093,
+      "offset": 17062,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17158,
+      "offset": 17127,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17172,
+      "offset": 17141,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17192,
+      "offset": 17161,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17210,
+      "offset": 17179,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17248,
+      "offset": 17217,
       "length": 10,
       "value": "\"molecule\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17321,
+      "offset": 17290,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17349,
+      "offset": 17318,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17377,
+      "offset": 17346,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17405,
+      "offset": 17374,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17479,
+      "offset": 17448,
       "length": 50,
       "value": "[\"Order completed!\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17543,
+      "offset": 17512,
       "length": 100,
       "value": "[\"We are delighted that you have found something you like. Have fun!\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17659,
+      "offset": 17628,
       "length": 49,
       "value": "[\"\", \"+100 xPoints\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17734,
+      "offset": 17703,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17762,
+      "offset": 17731,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17790,
+      "offset": 17759,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 17818,
+      "offset": 17787,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 17866,
+      "offset": 17835,
       "length": 15,
       "value": "\"purchase item\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 17989,
+      "offset": 17958,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18013,
+      "offset": 17982,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18041,
+      "offset": 18010,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18068,
+      "offset": 18037,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18084,
+      "offset": 18053,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18102,
+      "offset": 18071,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18121,
+      "offset": 18090,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18132,
+      "offset": 18101,
       "length": 3,
       "value": "118"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18143,
+      "offset": 18112,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18164,
+      "offset": 18133,
       "length": 8,
       "value": "\"bottom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18233,
+      "offset": 18202,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18277,
+      "offset": 18246,
       "length": 10,
       "value": "\"urlImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18311,
+      "offset": 18280,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18335,
+      "offset": 18304,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18363,
+      "offset": 18332,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18390,
+      "offset": 18359,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18406,
+      "offset": 18375,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18425,
+      "offset": 18394,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18436,
+      "offset": 18405,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18448,
+      "offset": 18417,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18482,
+      "offset": 18451,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18544,
+      "offset": 18513,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18588,
+      "offset": 18557,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18609,
+      "offset": 18578,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18619,
+      "offset": 18588,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18639,
+      "offset": 18608,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18657,
+      "offset": 18626,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18694,
+      "offset": 18663,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18756,
+      "offset": 18725,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18800,
+      "offset": 18769,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 18823,
+      "offset": 18792,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18833,
+      "offset": 18802,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18853,
+      "offset": 18822,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18871,
+      "offset": 18840,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18908,
+      "offset": 18877,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 18998,
+      "offset": 18967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19042,
+      "offset": 19011,
       "length": 9,
       "value": "\"divider\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19066,
+      "offset": 19035,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19084,
+      "offset": 19053,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 19103,
+      "offset": 19072,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19116,
+      "offset": 19085,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19125,
+      "offset": 19094,
       "length": 8,
       "value": "\"EBEBF5\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 19144,
+      "offset": 19113,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19179,
+      "offset": 19148,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19271,
+      "offset": 19240,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19315,
+      "offset": 19284,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19336,
+      "offset": 19305,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19352,
+      "offset": 19321,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19371,
+      "offset": 19340,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19381,
+      "offset": 19350,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19401,
+      "offset": 19370,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19419,
+      "offset": 19388,
       "length": 5,
       "value": "\"500\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19456,
+      "offset": 19425,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19518,
+      "offset": 19487,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19562,
+      "offset": 19531,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19578,
+      "offset": 19547,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19598,
+      "offset": 19567,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19616,
+      "offset": 19585,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19653,
+      "offset": 19622,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19715,
+      "offset": 19684,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19759,
+      "offset": 19728,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19786,
+      "offset": 19755,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19804,
+      "offset": 19773,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19823,
+      "offset": 19792,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19834,
+      "offset": 19803,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 19846,
+      "offset": 19815,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19856,
+      "offset": 19825,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19878,
+      "offset": 19847,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 19915,
+      "offset": 19884,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20001,
+      "offset": 19970,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20029,
+      "offset": 19998,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20057,
+      "offset": 20026,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20085,
+      "offset": 20054,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20159,
+      "offset": 20128,
       "length": 97,
       "value": "[\"https:\/\/i.imgur.com\/3pBHtul.png\", \"€10 PS Store Gift Card\", \"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20270,
+      "offset": 20239,
       "length": 34,
       "value": "[\"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20320,
+      "offset": 20289,
       "length": 93,
       "value": "[\"+100 xPoints\", \"\", \"rectangle.portrait.on.rectangle.portrait\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20439,
+      "offset": 20408,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20467,
+      "offset": 20436,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20495,
+      "offset": 20464,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 20523,
+      "offset": 20492,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 20570,
+      "offset": 20539,
       "length": 19,
       "value": "\"purchase giftcard\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20697,
+      "offset": 20666,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20721,
+      "offset": 20690,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20749,
+      "offset": 20718,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20776,
+      "offset": 20745,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20792,
+      "offset": 20761,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20810,
+      "offset": 20779,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20829,
+      "offset": 20798,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 20840,
+      "offset": 20809,
       "length": 3,
       "value": "170"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 20851,
+      "offset": 20820,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 20872,
+      "offset": 20841,
       "length": 8,
       "value": "\"center\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 20941,
+      "offset": 20910,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 20985,
+      "offset": 20954,
       "length": 10,
       "value": "\"urlImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21019,
+      "offset": 20988,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21043,
+      "offset": 21012,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21071,
+      "offset": 21040,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21098,
+      "offset": 21067,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21114,
+      "offset": 21083,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21133,
+      "offset": 21102,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21144,
+      "offset": 21113,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21156,
+      "offset": 21125,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21190,
+      "offset": 21159,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21252,
+      "offset": 21221,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21296,
+      "offset": 21265,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21317,
+      "offset": 21286,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21327,
+      "offset": 21296,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21347,
+      "offset": 21316,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21365,
+      "offset": 21334,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21402,
+      "offset": 21371,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21464,
+      "offset": 21433,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21508,
+      "offset": 21477,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21531,
+      "offset": 21500,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21541,
+      "offset": 21510,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21561,
+      "offset": 21530,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21579,
+      "offset": 21548,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21616,
+      "offset": 21585,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21706,
+      "offset": 21675,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21750,
+      "offset": 21719,
       "length": 9,
       "value": "\"divider\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21774,
+      "offset": 21743,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21792,
+      "offset": 21761,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 21811,
+      "offset": 21780,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 21824,
+      "offset": 21793,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21833,
+      "offset": 21802,
       "length": 8,
       "value": "\"EBEBF5\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 21852,
+      "offset": 21821,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21887,
+      "offset": 21856,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 21979,
+      "offset": 21948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22023,
+      "offset": 21992,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22044,
+      "offset": 22013,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22060,
+      "offset": 22029,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22079,
+      "offset": 22048,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22089,
+      "offset": 22058,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22109,
+      "offset": 22078,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22127,
+      "offset": 22096,
       "length": 5,
       "value": "\"500\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22164,
+      "offset": 22133,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22226,
+      "offset": 22195,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22270,
+      "offset": 22239,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22310,
+      "offset": 22279,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22372,
+      "offset": 22341,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22416,
+      "offset": 22385,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22443,
+      "offset": 22412,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22461,
+      "offset": 22430,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22480,
+      "offset": 22449,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22491,
+      "offset": 22460,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22503,
+      "offset": 22472,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22513,
+      "offset": 22482,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22535,
+      "offset": 22504,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22572,
+      "offset": 22541,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22691,
+      "offset": 22660,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22735,
+      "offset": 22704,
       "length": 9,
       "value": "\"divider\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22759,
+      "offset": 22728,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22777,
+      "offset": 22746,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 22796,
+      "offset": 22765,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 22809,
+      "offset": 22778,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22818,
+      "offset": 22787,
       "length": 8,
       "value": "\"EBEBF5\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "FloatLiteral",
-      "offset": 22837,
+      "offset": 22806,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22872,
+      "offset": 22841,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 22974,
+      "offset": 22943,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23018,
+      "offset": 22987,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 23039,
+      "offset": 23008,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 23055,
+      "offset": 23024,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23065,
+      "offset": 23034,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23085,
+      "offset": 23054,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23103,
+      "offset": 23072,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23140,
+      "offset": 23109,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23202,
+      "offset": 23171,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23246,
+      "offset": 23215,
       "length": 8,
       "value": "\"spacer\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
-      "offset": 23286,
+      "offset": 23255,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23355,
+      "offset": 23324,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23383,
+      "offset": 23352,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23457,
+      "offset": 23426,
       "length": 97,
       "value": "[\"https:\/\/i.imgur.com\/3pBHtul.png\", \"€10 PS Store Gift Card\", \"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23568,
+      "offset": 23537,
       "length": 34,
       "value": "[\"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23618,
+      "offset": 23587,
       "length": 102,
       "value": "[\"Key: 1234567890123456\", \"\", \"rectangle.portrait.on.rectangle.portrait\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23746,
+      "offset": 23715,
       "length": 4,
       "value": "[\"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23776,
+      "offset": 23745,
       "length": 70,
       "value": "[\"Serial Number: 123420240709230630\", \"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23872,
+      "offset": 23841,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "Array",
-      "offset": 23900,
+      "offset": 23869,
       "length": 2,
       "value": "[]"
     },

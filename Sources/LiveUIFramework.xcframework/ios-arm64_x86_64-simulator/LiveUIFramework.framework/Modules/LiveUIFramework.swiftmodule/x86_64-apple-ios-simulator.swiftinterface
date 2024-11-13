@@ -82,7 +82,7 @@ public struct Atom : Swift.Codable, Swift.Hashable {
 }
 
 public struct ProgressTokens {
-  public init(background: LiveUIFramework.Atom?, centerSlot: LiveUIFramework.Molecule?)
+  public init(centerSlot: LiveUIFramework.Molecule?)
 }
 public struct ProfileNavigationItemData {
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
