@@ -87,6 +87,9 @@ public struct ProgressTokens {
 public struct ProfileNavigationItemData {
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
 }
+public struct VerticalCardRowTokens {
+  public init(background: LiveUIFramework.Atom?, tokens: [LiveUIFramework.VerticalCardTokens])
+}
 public struct ImageCardData : Swift.Identifiable {
   public let id: Swift.String
   public init(id: Swift.String, background: [Swift.String], leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
@@ -135,6 +138,11 @@ public struct TransactionItemData : Swift.Identifiable {
 }
 
 
+public struct VerticalCardRowData : Swift.Identifiable {
+  public let id: Swift.String
+  public init(id: Swift.String, data: [LiveUIFramework.VerticalCardData])
+  public typealias ID = Swift.String
+}
 public struct TextInput : SwiftUI.View {
   public init(userInput: SwiftUI.Binding<Swift.String>, data: LiveUIFramework.TextInputData, tokens: LiveUIFramework.TextInputTokens)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
@@ -153,6 +161,7 @@ public struct ImageCard : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework9ImageCardV4bodyQrvp", 0) __
 }
+
 
 
 
@@ -181,6 +190,15 @@ public struct ProgressData {
 public struct DescriptionCardTokens {
   public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule])
 }
+public struct VerticalCardRow : SwiftUI.View {
+  public init(data: LiveUIFramework.VerticalCardRowData, tokens: LiveUIFramework.VerticalCardRowTokens, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework15VerticalCardRowV4bodyQrvp", 0) __
+}
+
+
 
 public struct ImageCardTokens {
   public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule])
@@ -219,6 +237,7 @@ public struct VerticalCard : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework12VerticalCardV4bodyQrvp", 0) __
 }
+
 
 
 
