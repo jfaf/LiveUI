@@ -9672,23 +9672,37 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsAtomType.swift",
       "kind": "StringLiteral",
-      "offset": 4432,
-      "length": 6,
-      "value": "\"text\""
+      "offset": 4480,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsAtomType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4502,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsAtomType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4514,
+      "length": 2,
+      "value": "40"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsAtomType.swift",
       "kind": "StringLiteral",
-      "offset": 4446,
+      "offset": 4524,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsAtomType.swift",
       "kind": "StringLiteral",
-      "offset": 4463,
-      "length": 6,
-      "value": "\"Test\""
+      "offset": 4541,
+      "length": 15,
+      "value": "\"car.side.fill\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SecureTextInput\/SecureTextInput.swift",
@@ -16792,6 +16806,580 @@
       "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
       "kind": "Array",
       "offset": 9908,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 9965,
+      "length": 15,
+      "value": "\"Travel Filter\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 10034,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10084,
+      "length": 34,
+      "value": "[\"airplane\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10132,
+      "length": 33,
+      "value": "[\"Flights\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10181,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10205,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10229,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10253,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10277,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10326,
+      "length": 39,
+      "value": "[\"building.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10379,
+      "length": 32,
+      "value": "[\"Hotels\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10427,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10451,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10475,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10499,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10523,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10572,
+      "length": 39,
+      "value": "[\"car.side.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10625,
+      "length": 30,
+      "value": "[\"Cars\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10671,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10695,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10719,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10743,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 10767,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10839,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10857,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10951,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10975,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11003,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11030,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11046,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11063,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11081,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11092,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11103,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11124,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11193,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11237,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11277,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11289,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11299,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11339,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11429,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11473,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11512,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11522,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11552,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 11593,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 11652,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 11680,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 11708,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 11736,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 11764,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11857,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11881,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11909,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11936,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11952,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11969,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11987,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11998,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12009,
+      "length": 8,
+      "value": "\"ff0000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12030,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12099,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12143,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12189,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12198,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12238,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12328,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12372,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12393,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12411,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12421,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12451,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "StringLiteral",
+      "offset": 12492,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 12551,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 12579,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 12607,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 12635,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardRow\/VerticalCardRow.swift",
+      "kind": "Array",
+      "offset": 12663,
       "length": 2,
       "value": "[]"
     },
