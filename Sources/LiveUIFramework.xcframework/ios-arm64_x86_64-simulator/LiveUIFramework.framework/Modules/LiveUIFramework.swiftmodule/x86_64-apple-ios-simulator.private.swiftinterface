@@ -29,7 +29,7 @@ public struct RowItem : SwiftUI.View {
 
 
 public struct VerticalCardLaneTokens {
-  public init(tokens: LiveUIFramework.VerticalCardTokens)
+  public init(background: LiveUIFramework.Atom?, tokens: LiveUIFramework.VerticalCardTokens)
 }
 public struct RadioButton : SwiftUI.View {
   public init(data: LiveUIFramework.RadioButtonData, tokens: LiveUIFramework.RadioButtonTokens, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
