@@ -254,11 +254,11 @@ public struct RowItemData {
 }
 public struct VerticalCardData : Swift.Identifiable {
   public let id: Swift.String?
-  public init(id: Swift.String? = UUID().uuidString, leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String], extraSlot1: [Swift.String], extraSlot2: [Swift.String], extraSlot3: [Swift.String], extraSlot4: [Swift.String])
+  public init(id: Swift.String? = UUID().uuidString, leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String], extraSlot1: [Swift.String], extraSlot2: [Swift.String], extraSlot3: [Swift.String], extraSlot4: [Swift.String], overlay: [Swift.String] = [])
   public typealias ID = Swift.String?
 }
 public struct VerticalCardTokens {
-  public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], extraSlot1: [LiveUIFramework.Molecule], extraSlot2: [LiveUIFramework.Molecule], extraSlot3: [LiveUIFramework.Molecule], extraSlot4: [LiveUIFramework.Molecule])
+  public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], extraSlot1: [LiveUIFramework.Molecule], extraSlot2: [LiveUIFramework.Molecule], extraSlot3: [LiveUIFramework.Molecule], extraSlot4: [LiveUIFramework.Molecule], overlay: [LiveUIFramework.Molecule] = [])
 }
 public struct FilterTabBarData : Swift.Identifiable {
   public let id: Swift.String?
