@@ -8,6 +8,7 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+
 public struct RowListTokens {
   public init(tokens: LiveUIFramework.RowItemTokens, atom: LiveUIFramework.Atom)
 }
@@ -18,6 +19,7 @@ public struct RowItem : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework7RowItemV4bodyQrvp", 0) __
 }
+
 
 
 
@@ -200,6 +202,11 @@ public struct VerticalCardRow : SwiftUI.View {
 
 
 
+public struct VerticalCardCarouselData : Swift.Identifiable {
+  public let id: Swift.String
+  public init(id: Swift.String, data: [LiveUIFramework.VerticalCardData])
+  public typealias ID = Swift.String
+}
 
 public struct ImageCardTokens {
   public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule])
@@ -264,6 +271,9 @@ public struct FilterTabBarData : Swift.Identifiable {
   public let id: Swift.String?
   public init(id: Swift.String? = UUID().uuidString, centerSlot: [Swift.String])
   public typealias ID = Swift.String?
+}
+public struct VerticalCardCarouselTokens {
+  public init(background: LiveUIFramework.Atom?, tokens: LiveUIFramework.VerticalCardTokens)
 }
 public struct RowItemTokens {
   public init(centerSlot: [LiveUIFramework.Molecule])

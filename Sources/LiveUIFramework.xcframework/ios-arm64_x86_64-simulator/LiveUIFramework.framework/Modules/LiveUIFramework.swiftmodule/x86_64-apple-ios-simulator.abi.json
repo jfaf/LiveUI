@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4321,6 +4331,139 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "VerticalCardCarouselData",
+        "printedName": "VerticalCardCarouselData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework24VerticalCardCarouselDataV2idSSvp",
+            "mangledName": "$s15LiveUIFramework24VerticalCardCarouselDataV2idSSvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework24VerticalCardCarouselDataV2idSSvg",
+                "mangledName": "$s15LiveUIFramework24VerticalCardCarouselDataV2idSSvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerticalCardCarouselData",
+                "printedName": "LiveUIFramework.VerticalCardCarouselData",
+                "usr": "s:15LiveUIFramework24VerticalCardCarouselDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LiveUIFramework.VerticalCardData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerticalCardData",
+                    "printedName": "LiveUIFramework.VerticalCardData",
+                    "usr": "s:15LiveUIFramework16VerticalCardDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework24VerticalCardCarouselDataV2id4dataACSS_SayAA0cdF0VGtcfc",
+            "mangledName": "$s15LiveUIFramework24VerticalCardCarouselDataV2id4dataACSS_SayAA0cdF0VGtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework24VerticalCardCarouselDataV",
+        "mangledName": "$s15LiveUIFramework24VerticalCardCarouselDataV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -5878,6 +6021,71 @@
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerticalCardCarouselTokens",
+        "printedName": "VerticalCardCarouselTokens",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(background:tokens:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerticalCardCarouselTokens",
+                "printedName": "LiveUIFramework.VerticalCardCarouselTokens",
+                "usr": "s:15LiveUIFramework26VerticalCardCarouselTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LiveUIFramework.Atom?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Atom",
+                    "printedName": "LiveUIFramework.Atom",
+                    "usr": "s:15LiveUIFramework4AtomV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerticalCardTokens",
+                "printedName": "LiveUIFramework.VerticalCardTokens",
+                "usr": "s:15LiveUIFramework18VerticalCardTokensV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework26VerticalCardCarouselTokensV10background6tokensAcA4AtomVSg_AA0cdF0Vtcfc",
+            "mangledName": "$s15LiveUIFramework26VerticalCardCarouselTokensV10background6tokensAcA4AtomVSg_AA0cdF0Vtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework26VerticalCardCarouselTokensV",
+        "mangledName": "$s15LiveUIFramework26VerticalCardCarouselTokensV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -7621,6 +7829,608 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "FloatLiteral",
+      "offset": 308,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 680,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 2957,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3011,
+      "length": 51,
+      "value": "[\"photo\", \"Wolt\", \"\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3076,
+      "length": 64,
+      "value": "[\"up to\", \"17%\", \"\", \"gobackward\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3156,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3184,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3212,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3240,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3268,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3325,
+      "length": 51,
+      "value": "[\"photo\", \"Wolt\", \"\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3390,
+      "length": 64,
+      "value": "[\"up to\", \"17%\", \"\", \"gobackward\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3470,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3498,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3526,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3554,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3582,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3639,
+      "length": 51,
+      "value": "[\"photo\", \"Wolt\", \"\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3704,
+      "length": 64,
+      "value": "[\"up to\", \"17%\", \"\", \"gobackward\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3784,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3812,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3840,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3868,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 3896,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4054,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4078,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4106,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4133,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4149,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4167,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4186,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4197,
+      "length": 3,
+      "value": "102"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4208,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4229,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4342,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4370,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4388,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4398,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4438,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4500,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4544,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4565,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4575,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4595,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4613,
+      "length": 5,
+      "value": "\"600\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4650,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4712,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4756,
+      "length": 8,
+      "value": "\"spacer\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4779,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4797,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4806,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4846,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4936,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 4980,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5001,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5020,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5030,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5060,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5101,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5163,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5207,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5230,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5240,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5270,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5311,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5373,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5417,
+      "length": 8,
+      "value": "\"spacer\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5451,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5481,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5522,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5584,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5628,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5657,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5676,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5687,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5699,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5709,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5739,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "StringLiteral",
+      "offset": 5780,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 5839,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 5867,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 5895,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 5923,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardCarousel\/VerticalCardCarousel.swift",
+      "kind": "Array",
+      "offset": 5951,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
       "offset": 2297,
@@ -8261,720 +9071,839 @@
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
       "offset": 7293,
-      "length": 17,
-      "value": "\"RowItem Button2\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7437,
-      "length": 11,
-      "value": "\"ctaButton\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7505,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "FloatLiteral",
-      "offset": 7535,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7548,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7558,
-      "length": 8,
-      "value": "\"aabbcc\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7644,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7658,
-      "length": 8,
-      "value": "\"00ff00\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7706,
-      "length": 10,
-      "value": "\"molecule\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7814,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "Array",
-      "offset": 7830,
-      "length": 11,
-      "value": "[\"\", \"test\"]"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 7988,
-      "length": 16,
-      "value": "\"RowItem Images\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8131,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8183,
-      "length": 13,
-      "value": "\"systemImage\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8204,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8252,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8322,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8374,
-      "length": 13,
-      "value": "\"systemImage\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8402,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8411,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8460,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8530,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8582,
-      "length": 13,
-      "value": "\"systemImage\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8610,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8627,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8636,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8685,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8789,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "Array",
-      "offset": 8805,
-      "length": 35,
-      "value": "[\"photo\", \"photo.tv\", \"photo.fill\"]"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 8987,
-      "length": 16,
-      "value": "\"RowItem Avatar\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9130,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9182,
-      "length": 11,
-      "value": "\"urlAvatar\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9202,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9214,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9224,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9272,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9342,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9394,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9415,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9424,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9473,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9543,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9595,
-      "length": 8,
-      "value": "\"spacer\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9611,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9659,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9729,
-      "length": 11,
-      "value": "\"ctaButton\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9806,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9831,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9860,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9888,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9899,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9931,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9941,
-      "length": 8,
-      "value": "\"ffff00\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 9991,
-      "length": 13,
-      "value": "\"systemImage\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10019,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10029,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10041,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10085,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10099,
-      "length": 8,
-      "value": "\"00ff00\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10183,
-      "length": 10,
-      "value": "\"molecule\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10291,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "Array",
-      "offset": 10307,
-      "length": 188,
-      "value": "[\"https:\/\/win.gg\/_next\/image\/?url=https%3A%2F%2Fapi.win.gg%2Fwp-content%2Fuploads%2F2021%2F12%2Ffervent-conscript-antimage.jpg&w=3840&q=75\", \"photo.tv\", \"test\", \"diamond.fill\", \"5600\", \"\"]"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10642,
       "length": 15,
-      "value": "\"Partner Offer\""
+      "value": "\"RowItem Image\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
-      "offset": 10782,
+      "offset": 7433,
+      "length": 6,
+      "value": "\"test\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 7447,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
-      "offset": 10792,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10844,
+      "offset": 7498,
       "length": 10,
       "value": "\"urlImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 10877,
-      "length": 1,
-      "value": "8"
+      "offset": 7532,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 10904,
-      "length": 1,
-      "value": "8"
+      "offset": 7557,
+      "length": 2,
+      "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 10914,
+      "offset": 7586,
       "length": 2,
-      "value": "42"
+      "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 10926,
+      "offset": 7614,
       "length": 2,
-      "value": "42"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10936,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 10984,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11052,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11062,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11114,
-      "length": 6,
-      "value": "\"text\""
+      "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 11135,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11145,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11165,
-      "length": 4,
-      "value": "\"16\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11183,
-      "length": 5,
-      "value": "\"600\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11228,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11296,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11306,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11358,
-      "length": 8,
-      "value": "\"spacer\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11374,
-      "length": 8,
-      "value": "\"ffffff\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11422,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11490,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11500,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11552,
-      "length": 6,
-      "value": "\"text\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11573,
+      "offset": 7631,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11582,
-      "length": 8,
-      "value": "\"4C4C4E\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11602,
-      "length": 4,
-      "value": "\"14\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11620,
-      "length": 5,
-      "value": "\"500\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11665,
-      "length": 6,
-      "value": "\"atom\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11733,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11743,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11795,
-      "length": 6,
-      "value": "\"text\""
+      "kind": "FloatLiteral",
+      "offset": 7649,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 11816,
-      "length": 1,
-      "value": "4"
+      "offset": 7662,
+      "length": 3,
+      "value": "240"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 7673,
       "length": 8,
-      "value": "\"ffffff\""
+      "value": "\"29865F\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7692,
+      "length": 3,
+      "value": "100"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
-      "offset": 11845,
-      "length": 4,
-      "value": "\"16\""
+      "offset": 7708,
+      "length": 8,
+      "value": "\"center\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
-      "offset": 11863,
-      "length": 5,
-      "value": "\"600\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
-      "kind": "StringLiteral",
-      "offset": 11908,
+      "offset": 7757,
       "length": 6,
       "value": "\"atom\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "StringLiteral",
-      "offset": 12012,
+      "offset": 7861,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
       "kind": "Array",
-      "offset": 12028,
+      "offset": 7877,
+      "length": 143,
+      "value": "[\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/howl-33d8e.appspot.com\/o\/salonHomeHero.png?alt=media&token=96d60a65-3105-4e81-8d97-36338f254553\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8169,
+      "length": 17,
+      "value": "\"RowItem Button2\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8313,
+      "length": 11,
+      "value": "\"ctaButton\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "FloatLiteral",
+      "offset": 8411,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8424,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8434,
+      "length": 8,
+      "value": "\"aabbcc\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8520,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8534,
+      "length": 8,
+      "value": "\"00ff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8582,
+      "length": 10,
+      "value": "\"molecule\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8690,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "Array",
+      "offset": 8706,
+      "length": 11,
+      "value": "[\"\", \"test\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 8864,
+      "length": 16,
+      "value": "\"RowItem Images\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9007,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9059,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9080,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9128,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9198,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9250,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9278,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9287,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9336,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9406,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9458,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9486,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9503,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9512,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9561,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "Array",
+      "offset": 9681,
+      "length": 35,
+      "value": "[\"photo\", \"photo.tv\", \"photo.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 9863,
+      "length": 16,
+      "value": "\"RowItem Avatar\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10006,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10058,
+      "length": 11,
+      "value": "\"urlAvatar\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10078,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10090,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10100,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10148,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10218,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10270,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10291,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10300,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10349,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10471,
+      "length": 8,
+      "value": "\"spacer\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10487,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10535,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10605,
+      "length": 11,
+      "value": "\"ctaButton\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10682,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10707,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10736,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10764,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10775,
+      "length": 2,
+      "value": "70"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10807,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10817,
+      "length": 8,
+      "value": "\"ffff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10867,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10895,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10905,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10917,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10961,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 10975,
+      "length": 8,
+      "value": "\"00ff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11059,
+      "length": 10,
+      "value": "\"molecule\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "Array",
+      "offset": 11183,
+      "length": 188,
+      "value": "[\"https:\/\/win.gg\/_next\/image\/?url=https%3A%2F%2Fapi.win.gg%2Fwp-content%2Fuploads%2F2021%2F12%2Ffervent-conscript-antimage.jpg&w=3840&q=75\", \"photo.tv\", \"test\", \"diamond.fill\", \"5600\", \"\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11518,
+      "length": 15,
+      "value": "\"Partner Offer\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11668,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11720,
+      "length": 10,
+      "value": "\"urlImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11753,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11780,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11790,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11802,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11812,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11860,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11928,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11938,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 11990,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12011,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12021,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12041,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12059,
+      "length": 5,
+      "value": "\"600\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12104,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12172,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12182,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12234,
+      "length": 8,
+      "value": "\"spacer\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12250,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12298,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12366,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12376,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12428,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12449,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12458,
+      "length": 8,
+      "value": "\"4C4C4E\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12478,
+      "length": 4,
+      "value": "\"14\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12496,
+      "length": 5,
+      "value": "\"500\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12541,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12609,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12619,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12671,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12692,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12701,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12721,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12739,
+      "length": 5,
+      "value": "\"600\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12784,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "StringLiteral",
+      "offset": 12888,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/RowItem\/RowItem.swift",
+      "kind": "Array",
+      "offset": 12904,
       "length": 107,
       "value": "[\"https:\/\/ui.awin.com\/images\/upload\/merchant\/profile\/44871.png?1676287491\", \"Geek Crate\", \"\", \"up to\", \"4%\"]"
     },
@@ -23037,14 +23966,28 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsImage.swift",
       "kind": "StringLiteral",
-      "offset": 1305,
+      "offset": 1310,
       "length": 15,
       "value": "\"chevron.right\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsImage.swift",
       "kind": "StringLiteral",
-      "offset": 1368,
+      "offset": 1401,
       "length": 8,
       "value": "\"ffffff\""
     },
