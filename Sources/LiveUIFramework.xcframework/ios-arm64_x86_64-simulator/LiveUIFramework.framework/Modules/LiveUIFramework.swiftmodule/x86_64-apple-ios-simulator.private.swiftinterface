@@ -262,7 +262,7 @@ public struct RowItemData {
 }
 public struct VerticalCardData : Swift.Identifiable {
   public let id: Swift.String?
-  public init(id: Swift.String? = UUID().uuidString, background: [Swift.String], leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String], extraSlot1: [Swift.String], extraSlot2: [Swift.String], extraSlot3: [Swift.String], extraSlot4: [Swift.String], overlay: [Swift.String] = [])
+  public init(id: Swift.String? = UUID().uuidString, background: [Swift.String] = [], leadingSlot: [Swift.String] = [], centerSlot: [Swift.String] = [], trailingSlot: [Swift.String] = [], extraSlot1: [Swift.String] = [], extraSlot2: [Swift.String] = [], extraSlot3: [Swift.String] = [], extraSlot4: [Swift.String] = [], overlay: [Swift.String] = [])
   public typealias ID = Swift.String?
 }
 public struct VerticalCardTokens {
