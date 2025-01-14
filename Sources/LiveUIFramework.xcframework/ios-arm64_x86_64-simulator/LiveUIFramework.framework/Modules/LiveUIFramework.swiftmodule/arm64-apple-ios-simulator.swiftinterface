@@ -133,7 +133,7 @@ public struct SecureTextInputData {
 }
 
 
-public struct TransactionItemData : Swift.Identifiable {
+public struct MultilineRowItemData : Swift.Identifiable {
   public let id: Foundation.UUID
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
   public typealias ID = Foundation.UUID
@@ -300,9 +300,9 @@ public struct SDK {
 public struct CheckButtonData {
   public init(id: Swift.String, leadingSlot: [Swift.String], centerSlot: Swift.String?, isSelected: Swift.Bool)
 }
-public struct TransactionListData : Swift.Identifiable {
+public struct MultilineListData : Swift.Identifiable {
   public let id: Swift.String
-  public init(id: Swift.String, data: [LiveUIFramework.TransactionItemData])
+  public init(id: Swift.String, data: [LiveUIFramework.MultilineRowItemData])
   public typealias ID = Swift.String
 }
 public struct DescriptionCardData : Swift.Identifiable {
@@ -324,30 +324,30 @@ public struct CheckButton : SwiftUI.View {
 public struct Molecule {
   public init(id: Swift.String? = nil, type: Swift.String?, atoms: [LiveUIFramework.Atom], structure: Swift.String?, moleculeAtom: LiveUIFramework.Atom)
 }
-public struct TransactionList : SwiftUI.View {
-  public init(data: LiveUIFramework.TransactionListData, tokens: LiveUIFramework.TransactionListTokens)
+public struct MultilineList : SwiftUI.View {
+  public init(data: LiveUIFramework.MultilineListData, tokens: LiveUIFramework.MultilineListTokens)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework15TransactionListV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework13MultilineListV4bodyQrvp", 0) __
 }
 
 
 
-public struct TransactionListTokens {
-  public init(tokens: LiveUIFramework.TransactionItemTokens, atom: LiveUIFramework.Atom)
+public struct MultilineListTokens {
+  public init(tokens: LiveUIFramework.MultilineRowItemTokens, atom: LiveUIFramework.Atom)
 }
-public struct TransactionItem : SwiftUI.View {
-  public init(data: LiveUIFramework.TransactionItemData, tokens: LiveUIFramework.TransactionItemTokens, isDivider: Swift.Bool)
+public struct MultilineRowItem : SwiftUI.View {
+  public init(data: LiveUIFramework.MultilineRowItemData, tokens: LiveUIFramework.MultilineRowItemTokens, isDivider: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
-  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework15TransactionItemV4bodyQrvp", 0) __
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework16MultilineRowItemV4bodyQrvp", 0) __
 }
 
 
 
-public struct TransactionItemTokens {
+public struct MultilineRowItemTokens {
   public init(leadingSlot: LiveUIFramework.Molecule?, centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], divider: LiveUIFramework.Molecule?)
 }
 public struct FilterTabBar : SwiftUI.View {
