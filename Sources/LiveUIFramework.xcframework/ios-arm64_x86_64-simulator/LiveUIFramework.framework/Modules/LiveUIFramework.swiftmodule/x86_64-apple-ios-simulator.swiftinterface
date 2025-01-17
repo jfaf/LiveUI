@@ -348,7 +348,7 @@ public struct MultilineRowItem : SwiftUI.View {
 
 
 public struct MultilineRowItemTokens {
-  public init(leadingSlot: LiveUIFramework.Molecule?, centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], divider: LiveUIFramework.Molecule?)
+  public init(background: LiveUIFramework.Atom? = Atom(), leadingSlot: LiveUIFramework.Molecule?, centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], divider: LiveUIFramework.Molecule?)
 }
 public struct FilterTabBar : SwiftUI.View {
   public init(data: LiveUIFramework.FilterTabBarData, tokens: LiveUIFramework.FilterTabBarTokens, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
