@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "LiveUIFramework",
+    "printedName": "LiveUIFramework",
     "children": [
       {
         "kind": "Import",
@@ -79,6 +79,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -143,6 +159,8 @@
             "mangledName": "$s15LiveUIFramework7RowItemV6tokens4data8callbackAcA0cD6TokensV_AA0cD4DataVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -171,6 +189,7 @@
             "mangledName": "$s15LiveUIFramework7RowItemV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -208,9 +227,25 @@
         "mangledName": "$s15LiveUIFramework7RowItemV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -239,6 +274,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -305,6 +347,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -369,6 +427,8 @@
             "mangledName": "$s15LiveUIFramework11RadioButtonV4data6tokens8callbackAcA0cD4DataV_AA0cD6TokensVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -397,6 +457,7 @@
             "mangledName": "$s15LiveUIFramework11RadioButtonV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -434,9 +495,25 @@
         "mangledName": "$s15LiveUIFramework11RadioButtonV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -465,6 +542,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -567,6 +651,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -641,6 +741,8 @@
             "mangledName": "$s15LiveUIFramework12InlinePickerV9selection6inputs4data6tokensAC7SwiftUI7BindingVySSG_SaySSGAA0cD4DataVAA0cD6TokensVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -669,6 +771,7 @@
             "mangledName": "$s15LiveUIFramework12InlinePickerV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -706,9 +809,25 @@
         "mangledName": "$s15LiveUIFramework12InlinePickerV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -737,6 +856,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -859,6 +985,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -1004,6 +1144,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -1024,6 +1178,16 @@
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1100,6 +1264,8 @@
             "mangledName": "$s15LiveUIFramework15SecureTextInputV02isC004userE04data6tokensACSb_7SwiftUI7BindingVySSGAA0cdE4DataVAA0cdE6TokensVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -1128,6 +1294,7 @@
             "mangledName": "$s15LiveUIFramework15SecureTextInputV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1165,9 +1332,25 @@
         "mangledName": "$s15LiveUIFramework15SecureTextInputV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -1196,6 +1379,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1217,7 +1407,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(itemName:type:version:cornerRadiusTopRight:cornerRadiusTopLeft:cornerRadiusBottomRight:cornerRadiusBottomLeft:paddingLeft:paddingTop:paddingRight:paddingBottom:width:relativeWidth:height:relativeHeight:fill:opacity:stroke:strokeWidth:strokeOpacity:backgroundColor:focusColor:objectId:font:fontSize:fontWeight:alignment:multilineAlignment:aspectRatioType:)",
+            "printedName": "init(itemName:type:version:cornerRadiusTopRight:cornerRadiusTopLeft:cornerRadiusBottomRight:cornerRadiusBottomLeft:paddingLeft:paddingTop:paddingRight:paddingBottom:width:relativeWidth:height:relativeHeight:fill:opacity:stroke:strokeWidth:strokeOpacity:backgroundColor:focusColor:objectId:font:fontSize:fontWeight:alignment:multilineAlignment:aspectRatioType:numberOfColumns:horizontalSpacing:verticalSpacing:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1659,11 +1849,56 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioTypeACSSSg_A5_A5_SiSgA6_A6_A6_A6_A6_A6_A6_A6_14CoreFoundation7CGFloatVSgA6_A10_A5_A10_A5_A6_A10_A5_A5_A5_A5_A5_A5_A5_A5_A5_tcfc",
-            "mangledName": "$s15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioTypeACSSSg_A5_A5_SiSgA6_A6_A6_A6_A6_A6_A6_A6_12CoreGraphics7CGFloatVSgA6_A10_A5_A10_A5_A6_A10_A5_A5_A5_A5_A5_A5_A5_A5_A5_tcfc",
+            "usr": "s:15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioType15numberOfColumns17horizontalSpacing15verticalSpacingACSSSg_A8_A8_SiSgA9_A9_A9_A9_A9_A9_A9_A9_14CoreFoundation7CGFloatVSgA9_A13_A8_A13_A8_A9_A13_A8_A8_A8_A8_A8_A8_A8_A8_A8_A9_A9_A9_tcfc",
+            "mangledName": "$s15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioType15numberOfColumns17horizontalSpacing15verticalSpacingACSSSg_A8_A8_SiSgA9_A9_A9_A9_A9_A9_A9_A9_12CoreGraphics7CGFloatVSgA9_A13_A8_A13_A8_A9_A13_A8_A8_A8_A8_A8_A8_A8_A8_A8_A9_A9_A9_tcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
               "AccessControl"
@@ -1828,6 +2063,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -1923,6 +2172,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2020,6 +2285,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2093,6 +2374,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2248,6 +2545,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -2355,6 +2666,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2420,6 +2747,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2521,6 +2864,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2622,6 +2981,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2686,6 +3061,8 @@
             "mangledName": "$s15LiveUIFramework16VerticalCardLaneV4data6tokens8callbackAcA0cdE4DataV_AA0cdE6TokensVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -2714,6 +3091,7 @@
             "mangledName": "$s15LiveUIFramework16VerticalCardLaneV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2751,9 +3129,25 @@
         "mangledName": "$s15LiveUIFramework16VerticalCardLaneV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -2782,6 +3176,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2829,6 +3230,8 @@
             "mangledName": "$s15LiveUIFramework14ProfileNavItemV4data6tokensAcA0c10NavigationE4DataV_AA0chE6TokensVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -2857,6 +3260,7 @@
             "mangledName": "$s15LiveUIFramework14ProfileNavItemV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2894,9 +3298,25 @@
         "mangledName": "$s15LiveUIFramework14ProfileNavItemV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -2925,6 +3345,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3023,6 +3450,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3167,6 +3610,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -3359,6 +3816,158 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerticalCardGridData",
+        "printedName": "VerticalCardGridData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework20VerticalCardGridDataV2idSSvp",
+            "mangledName": "$s15LiveUIFramework20VerticalCardGridDataV2idSSvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework20VerticalCardGridDataV2idSSvg",
+                "mangledName": "$s15LiveUIFramework20VerticalCardGridDataV2idSSvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerticalCardGridData",
+                "printedName": "LiveUIFramework.VerticalCardGridData",
+                "usr": "s:15LiveUIFramework20VerticalCardGridDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LiveUIFramework.VerticalCardData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerticalCardData",
+                    "printedName": "LiveUIFramework.VerticalCardData",
+                    "usr": "s:15LiveUIFramework16VerticalCardDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework20VerticalCardGridDataV2id4dataACSS_SayAA0cdF0VGtcfc",
+            "mangledName": "$s15LiveUIFramework20VerticalCardGridDataV2id4dataACSS_SayAA0cdF0VGtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework20VerticalCardGridDataV",
+        "mangledName": "$s15LiveUIFramework20VerticalCardGridDataV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -3439,6 +4048,8 @@
             "mangledName": "$s15LiveUIFramework9TextInputV04userD04data6tokensAC7SwiftUI7BindingVySSG_AA0cD4DataVAA0cD6TokensVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -3467,6 +4078,7 @@
             "mangledName": "$s15LiveUIFramework9TextInputV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3504,9 +4116,25 @@
         "mangledName": "$s15LiveUIFramework9TextInputV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -3535,6 +4163,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3600,6 +4235,8 @@
             "mangledName": "$s15LiveUIFramework9ImageCardV6tokens4data8callbackAcA0cD6TokensV_AA0cD4DataVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -3628,6 +4265,7 @@
             "mangledName": "$s15LiveUIFramework9ImageCardV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3665,9 +4303,25 @@
         "mangledName": "$s15LiveUIFramework9ImageCardV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -3696,6 +4350,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3818,6 +4479,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3902,6 +4579,8 @@
             "mangledName": "$s15LiveUIFramework7RowListV4data6tokens8callbackAcA0cD4DataV_AA0cD6TokensVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -3930,6 +4609,7 @@
             "mangledName": "$s15LiveUIFramework7RowListV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3967,9 +4647,25 @@
         "mangledName": "$s15LiveUIFramework7RowListV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -3998,6 +4694,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4056,6 +4759,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4157,6 +4876,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4221,6 +4956,8 @@
             "mangledName": "$s15LiveUIFramework15VerticalCardRowV4data6tokens8callbackAcA0cdE4DataV_AA0cdE6TokensVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -4249,6 +4986,7 @@
             "mangledName": "$s15LiveUIFramework15VerticalCardRowV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4286,9 +5024,25 @@
         "mangledName": "$s15LiveUIFramework15VerticalCardRowV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -4317,6 +5071,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4429,6 +5190,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -4572,6 +5347,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4618,6 +5409,8 @@
             "mangledName": "$s15LiveUIFramework15DescriptionCardV6tokens4dataAcA0cD6TokensV_AA0cD4DataVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -4646,6 +5439,7 @@
             "mangledName": "$s15LiveUIFramework15DescriptionCardV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4683,9 +5477,25 @@
         "mangledName": "$s15LiveUIFramework15DescriptionCardV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -4714,6 +5524,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4860,6 +5677,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4926,6 +5759,8 @@
             "mangledName": "$s15LiveUIFramework8ProgressV4data6tokensAcA0C4DataV_AA0C6TokensVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -4954,6 +5789,7 @@
             "mangledName": "$s15LiveUIFramework8ProgressV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4991,9 +5827,25 @@
         "mangledName": "$s15LiveUIFramework8ProgressV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -5022,6 +5874,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5122,6 +5981,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5186,6 +6061,8 @@
             "mangledName": "$s15LiveUIFramework12VerticalCardV6tokens4data8callbackAcA0cD6TokensV_AA0cD4DataVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -5215,6 +6092,7 @@
             "mangledName": "$s15LiveUIFramework12VerticalCardV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5252,9 +6130,25 @@
         "mangledName": "$s15LiveUIFramework12VerticalCardV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -5283,6 +6177,102 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerticalCardGridTokens",
+        "printedName": "VerticalCardGridTokens",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(background:tokens:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerticalCardGridTokens",
+                "printedName": "LiveUIFramework.VerticalCardGridTokens",
+                "usr": "s:15LiveUIFramework22VerticalCardGridTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LiveUIFramework.Atom?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Atom",
+                    "printedName": "LiveUIFramework.Atom",
+                    "usr": "s:15LiveUIFramework4AtomV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LiveUIFramework.VerticalCardTokens]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerticalCardTokens",
+                    "printedName": "LiveUIFramework.VerticalCardTokens",
+                    "usr": "s:15LiveUIFramework18VerticalCardTokensV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework22VerticalCardGridTokensV10background6tokensAcA4AtomVSg_SayAA0cdF0VGtcfc",
+            "mangledName": "$s15LiveUIFramework22VerticalCardGridTokensV10background6tokensAcA4AtomVSg_SayAA0cdF0VGtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework22VerticalCardGridTokensV",
+        "mangledName": "$s15LiveUIFramework22VerticalCardGridTokensV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5418,6 +6408,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5677,6 +6683,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -5877,6 +6897,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6015,6 +7051,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -6108,6 +7158,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6177,6 +7243,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6240,6 +7322,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6327,6 +7425,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6487,6 +7601,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6592,6 +7722,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6703,6 +7849,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -6866,6 +8026,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -6963,6 +8137,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7027,6 +8217,8 @@
             "mangledName": "$s15LiveUIFramework11CheckButtonV4data6tokens8callbackAcA0cD4DataV_AA0cD6TokensVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -7055,6 +8247,7 @@
             "mangledName": "$s15LiveUIFramework11CheckButtonV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7092,9 +8285,25 @@
         "mangledName": "$s15LiveUIFramework11CheckButtonV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -7123,6 +8332,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7223,6 +8439,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7269,6 +8501,8 @@
             "mangledName": "$s15LiveUIFramework13MultilineListV4data6tokensAcA0cD4DataV_AA0cD6TokensVtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -7297,6 +8531,7 @@
             "mangledName": "$s15LiveUIFramework13MultilineListV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7334,9 +8569,25 @@
         "mangledName": "$s15LiveUIFramework13MultilineListV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -7365,6 +8616,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7433,6 +8691,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7485,6 +8759,8 @@
             "mangledName": "$s15LiveUIFramework16MultilineRowItemV4data6tokens9isDividerAcA0cdE4DataV_AA0cdE6TokensVSbtcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -7513,6 +8789,7 @@
             "mangledName": "$s15LiveUIFramework16MultilineRowItemV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7550,9 +8827,25 @@
         "mangledName": "$s15LiveUIFramework16MultilineRowItemV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -7581,6 +8874,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7698,6 +8998,22 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7762,6 +9078,8 @@
             "mangledName": "$s15LiveUIFramework12FilterTabBarV4data6tokens8callbackAcA0cdE4DataV_AA0cdE6TokensVyAA16RapidAppCallbackVctcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "init_kind": "Designated"
@@ -7790,6 +9108,7 @@
             "mangledName": "$s15LiveUIFramework12FilterTabBarV4bodyQrvp",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7827,9 +9146,25 @@
         "mangledName": "$s15LiveUIFramework12FilterTabBarV",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
+          "Preconcurrency",
+          "Custom",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "View",
@@ -7858,6 +9193,13 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -10734,6 +12076,384 @@
       "offset": 4541,
       "length": 15,
       "value": "\"car.side.fill\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 2286,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2354,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2387,
+      "length": 50,
+      "value": "[\"airplane\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2451,
+      "length": 49,
+      "value": "[\"Flights\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2561,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2594,
+      "length": 55,
+      "value": "[\"building.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2663,
+      "length": 48,
+      "value": "[\"Hotels\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2805,
+      "length": 55,
+      "value": "[\"car.side.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 2874,
+      "length": 46,
+      "value": "[\"Cars\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3004,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3041,
+      "length": 58,
+      "value": "[\"airplane\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3113,
+      "length": 57,
+      "value": "[\"Flights\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3242,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3279,
+      "length": 63,
+      "value": "[\"building.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3356,
+      "length": 56,
+      "value": "[\"Hotels\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3484,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3521,
+      "length": 63,
+      "value": "[\"car.side.fill\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 3598,
+      "length": 54,
+      "value": "[\"Cars\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3781,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3799,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3820,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3841,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3861,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3982,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4006,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4034,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4061,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4077,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4092,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4109,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4127,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4138,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4149,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4170,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4255,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4307,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4337,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4347,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4359,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4369,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4417,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4523,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4575,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4596,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4614,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4624,
+      "length": 8,
+      "value": "\"ffffff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4654,
+      "length": 9,
+      "value": "\"leading\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "StringLiteral",
+      "offset": 4703,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 4770,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 4806,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 4842,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 4878,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardGrid\/VerticalCardGrid.swift",
+      "kind": "Array",
+      "offset": 4914,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SecureTextInput\/SecureTextInput.swift",
