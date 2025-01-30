@@ -64,6 +64,13 @@ public struct VerticalCardLaneData : Swift.Identifiable {
   public typealias ID = Swift.String
 }
 
+@_Concurrency.MainActor @preconcurrency public struct VerticalGrid : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(data: LiveUIFramework.VerticalCardGridData, tokens: LiveUIFramework.VerticalCardGridTokens, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework12VerticalGridV4bodyQrvp", 0) __
+}
 
 @_Concurrency.MainActor @preconcurrency public struct SecureTextInput : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(isSecure: Swift.Bool, userInput: SwiftUICore.Binding<Swift.String>, data: LiveUIFramework.SecureTextInputData, tokens: LiveUIFramework.SecureTextInputTokens)
@@ -366,6 +373,7 @@ public struct MultilineRowItemTokens {
 extension LiveUIFramework.RowItem : Swift.Sendable {}
 extension LiveUIFramework.RadioButton : Swift.Sendable {}
 extension LiveUIFramework.InlinePicker : Swift.Sendable {}
+extension LiveUIFramework.VerticalGrid : Swift.Sendable {}
 extension LiveUIFramework.SecureTextInput : Swift.Sendable {}
 extension LiveUIFramework.VerticalCardLane : Swift.Sendable {}
 extension LiveUIFramework.ProfileNavItem : Swift.Sendable {}
