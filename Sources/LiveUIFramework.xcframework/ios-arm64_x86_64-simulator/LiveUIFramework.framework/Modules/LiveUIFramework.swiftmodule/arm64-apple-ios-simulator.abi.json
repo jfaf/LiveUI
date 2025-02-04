@@ -1191,6 +1191,140 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Suggestions",
+        "printedName": "Suggestions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework11SuggestionsV4bodyQrvp",
+            "mangledName": "$s15LiveUIFramework11SuggestionsV4bodyQrvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework11SuggestionsV4bodyQrvg",
+                "mangledName": "$s15LiveUIFramework11SuggestionsV4bodyQrvg",
+                "moduleName": "LiveUIFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework11SuggestionsV",
+        "mangledName": "$s15LiveUIFramework11SuggestionsV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -2349,6 +2483,85 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SearchSuggestionsTokens",
+        "printedName": "SearchSuggestionsTokens",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(background:textInputTokens:suggestionsTokens:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SearchSuggestionsTokens",
+                "printedName": "LiveUIFramework.SearchSuggestionsTokens",
+                "usr": "s:15LiveUIFramework23SearchSuggestionsTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LiveUIFramework.Atom?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Atom",
+                    "printedName": "LiveUIFramework.Atom",
+                    "usr": "s:15LiveUIFramework4AtomV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextInputTokens",
+                "printedName": "LiveUIFramework.TextInputTokens",
+                "usr": "s:15LiveUIFramework15TextInputTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SuggestionsTokens",
+                "printedName": "LiveUIFramework.SuggestionsTokens",
+                "usr": "s:15LiveUIFramework17SuggestionsTokensV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework23SearchSuggestionsTokensV10background09textInputE0011suggestionsE0AcA4AtomVSg_AA04TexthE0VAA0dE0Vtcfc",
+            "mangledName": "$s15LiveUIFramework23SearchSuggestionsTokensV10background09textInputE0011suggestionsE0AcA4AtomVSg_AA04TexthE0VAA0dE0Vtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework23SearchSuggestionsTokensV",
+        "mangledName": "$s15LiveUIFramework23SearchSuggestionsTokensV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -5712,6 +5925,79 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SearchSuggestionsData",
+        "printedName": "SearchSuggestionsData",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(textInputData:suggestions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SearchSuggestionsData",
+                "printedName": "LiveUIFramework.SearchSuggestionsData",
+                "usr": "s:15LiveUIFramework21SearchSuggestionsDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TextInputData",
+                "printedName": "LiveUIFramework.TextInputData",
+                "usr": "s:15LiveUIFramework13TextInputDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework21SearchSuggestionsDataV09textInputE011suggestionsAcA04TextgE0V_SaySSGtcfc",
+            "mangledName": "$s15LiveUIFramework21SearchSuggestionsDataV09textInputE011suggestionsAcA04TextgE0V_SaySSGtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework21SearchSuggestionsDataV",
+        "mangledName": "$s15LiveUIFramework21SearchSuggestionsDataV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -6173,6 +6459,190 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SearchSuggestions",
+        "printedName": "SearchSuggestions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:tokens:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SearchSuggestions",
+                "printedName": "LiveUIFramework.SearchSuggestions",
+                "usr": "s:15LiveUIFramework17SearchSuggestionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SearchSuggestionsData",
+                "printedName": "LiveUIFramework.SearchSuggestionsData",
+                "usr": "s:15LiveUIFramework21SearchSuggestionsDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SearchSuggestionsTokens",
+                "printedName": "LiveUIFramework.SearchSuggestionsTokens",
+                "usr": "s:15LiveUIFramework23SearchSuggestionsTokensV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework17SearchSuggestionsV4data6tokens8callbackAcA0cD4DataV_AA0cD6TokensVySSctcfc",
+            "mangledName": "$s15LiveUIFramework17SearchSuggestionsV4data6tokens8callbackAcA0cD4DataV_AA0cD6TokensVySSctcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework17SearchSuggestionsV4bodyQrvp",
+            "mangledName": "$s15LiveUIFramework17SearchSuggestionsV4bodyQrvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework17SearchSuggestionsV4bodyQrvg",
+                "mangledName": "$s15LiveUIFramework17SearchSuggestionsV4bodyQrvg",
+                "moduleName": "LiveUIFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework17SearchSuggestionsV",
+        "mangledName": "$s15LiveUIFramework17SearchSuggestionsV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7361,6 +7831,79 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SuggestionsTokens",
+        "printedName": "SuggestionsTokens",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(background:rows:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SuggestionsTokens",
+                "printedName": "LiveUIFramework.SuggestionsTokens",
+                "usr": "s:15LiveUIFramework17SuggestionsTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Atom",
+                "printedName": "LiveUIFramework.Atom",
+                "usr": "s:15LiveUIFramework4AtomV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Atom",
+                "printedName": "LiveUIFramework.Atom",
+                "usr": "s:15LiveUIFramework4AtomV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework17SuggestionsTokensV10background4rowsAcA4AtomV_AGtcfc",
+            "mangledName": "$s15LiveUIFramework17SuggestionsTokensV10background4rowsAcA4AtomV_AGtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework17SuggestionsTokensV",
+        "mangledName": "$s15LiveUIFramework17SuggestionsTokensV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -12197,6 +12740,48 @@
       "offset": 4980,
       "length": 6,
       "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Suggestions\/Suggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 1900,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Suggestions\/Suggestions.swift",
+      "kind": "Array",
+      "offset": 1944,
+      "length": 29,
+      "value": "[\"apple\", \"banana\", \"cherry\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Suggestions\/Suggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2074,
+      "length": 8,
+      "value": "\"ff0000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Suggestions\/Suggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 8,
+      "value": "\"ffff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Suggestions\/Suggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2134,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Suggestions\/Suggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 5,
+      "value": "\"400\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TypeParsers\/DmsAtomType.swift",
@@ -21481,6 +22066,13 @@
       "value": "[\"Gift Card\", \"\", \"100XP\"]"
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestionsData.swift",
+      "kind": "Array",
+      "offset": 277,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
       "kind": "StringLiteral",
       "offset": 656,
@@ -21563,6 +22155,384 @@
       "offset": 1080,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 92,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 150,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 1644,
+      "length": 19,
+      "value": "[\"magnifyingglass\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 1697,
+      "length": 24,
+      "value": "[\"Enter your text here\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 1757,
+      "length": 13,
+      "value": "[\"eye.slash\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 1819,
+      "length": 67,
+      "value": "[\"Apple\", \"Banana\", \"Cherry\", \"Date\", \"Elderberry\", \"Fig\", \"Grape\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2001,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2019,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2121,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2185,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2209,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2237,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2264,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2279,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2294,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2329,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2340,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2363,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2519,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2599,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2609,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2621,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2631,
+      "length": 8,
+      "value": "\"aabbcc\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2654,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2756,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2808,
+      "length": 11,
+      "value": "\"textfield\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2834,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2849,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2866,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2884,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2914,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2925,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2935,
+      "length": 8,
+      "value": "\"0000ff\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2953,
+      "length": 8,
+      "value": "\"00ff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2975,
+      "length": 8,
+      "value": "\"ff0000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 2995,
+      "length": 4,
+      "value": "\"20\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3013,
+      "length": 5,
+      "value": "\"700\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3033,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3137,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3189,
+      "length": 13,
+      "value": "\"systemImage\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3218,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3228,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3240,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3250,
+      "length": 8,
+      "value": "\"aabbcc\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3273,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3434,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3443,
+      "length": 8,
+      "value": "\"ff0000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3491,
+      "length": 8,
+      "value": "\"ffff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3511,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 3529,
+      "length": 5,
+      "value": "\"400\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",

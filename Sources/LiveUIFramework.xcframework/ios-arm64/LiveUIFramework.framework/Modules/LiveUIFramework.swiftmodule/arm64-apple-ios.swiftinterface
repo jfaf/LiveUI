@@ -63,6 +63,13 @@ public struct VerticalCardLaneData : Swift.Identifiable {
   public init(id: Swift.String, data: [LiveUIFramework.VerticalCardData])
   public typealias ID = Swift.String
 }
+@_Concurrency.MainActor @preconcurrency public struct Suggestions : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework11SuggestionsV4bodyQrvp", 0) __
+}
+
 
 @_Concurrency.MainActor @preconcurrency public struct VerticalGrid : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(data: LiveUIFramework.VerticalCardGridData, tokens: LiveUIFramework.VerticalCardGridTokens, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
@@ -93,6 +100,9 @@ public struct Atom : Swift.Codable, Swift.Hashable {
 
 public struct ProgressTokens {
   public init(centerSlot: LiveUIFramework.Molecule?)
+}
+public struct SearchSuggestionsTokens {
+  public init(background: LiveUIFramework.Atom? = nil, textInputTokens: LiveUIFramework.TextInputTokens, suggestionsTokens: LiveUIFramework.SuggestionsTokens)
 }
 public struct ProfileNavigationItemData {
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
@@ -234,6 +244,9 @@ public struct ImageCardTokens {
 
 
 
+public struct SearchSuggestionsData {
+  public init(textInputData: LiveUIFramework.TextInputData, suggestions: [Swift.String] = [])
+}
 public struct RapidAppCallback {
   public let key: Swift.String
   public let value: Swift.String
@@ -251,6 +264,14 @@ public struct RapidAppCallback {
 public struct RadioButtonData {
   public init(id: Swift.String, leadingSlot: Swift.String?, centerSlot: Swift.String?, trailingSlot: [Swift.String], isSelected: Swift.Bool)
 }
+@_Concurrency.MainActor @preconcurrency public struct SearchSuggestions : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(data: LiveUIFramework.SearchSuggestionsData, tokens: LiveUIFramework.SearchSuggestionsTokens, callback: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework17SearchSuggestionsV4bodyQrvp", 0) __
+}
+
 @_Concurrency.MainActor @preconcurrency public struct VerticalCard : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(tokens: LiveUIFramework.VerticalCardTokens, data: LiveUIFramework.VerticalCardData, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -291,6 +312,9 @@ public struct FilterTabBarData : Swift.Identifiable {
 }
 public struct VerticalCardCarouselTokens {
   public init(background: LiveUIFramework.Atom?, tokens: LiveUIFramework.VerticalCardTokens)
+}
+public struct SuggestionsTokens {
+  public init(background: LiveUIFramework.Atom, rows: LiveUIFramework.Atom)
 }
 public struct RowItemTokens {
   public init(centerSlot: [LiveUIFramework.Molecule])
@@ -373,6 +397,7 @@ public struct MultilineRowItemTokens {
 extension LiveUIFramework.RowItem : Swift.Sendable {}
 extension LiveUIFramework.RadioButton : Swift.Sendable {}
 extension LiveUIFramework.InlinePicker : Swift.Sendable {}
+extension LiveUIFramework.Suggestions : Swift.Sendable {}
 extension LiveUIFramework.VerticalGrid : Swift.Sendable {}
 extension LiveUIFramework.SecureTextInput : Swift.Sendable {}
 extension LiveUIFramework.VerticalCardLane : Swift.Sendable {}
@@ -383,6 +408,7 @@ extension LiveUIFramework.RowList : Swift.Sendable {}
 extension LiveUIFramework.VerticalCardRow : Swift.Sendable {}
 extension LiveUIFramework.DescriptionCard : Swift.Sendable {}
 extension LiveUIFramework.Progress : Swift.Sendable {}
+extension LiveUIFramework.SearchSuggestions : Swift.Sendable {}
 extension LiveUIFramework.VerticalCard : Swift.Sendable {}
 extension LiveUIFramework.CheckButton : Swift.Sendable {}
 extension LiveUIFramework.MultilineList : Swift.Sendable {}
