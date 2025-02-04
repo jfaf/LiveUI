@@ -22535,6 +22535,223 @@
       "value": "\"400\""
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 3771,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 3807,
+      "length": 24,
+      "value": "[\"Enter your text here\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 3867,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "Array",
+      "offset": 3918,
+      "length": 67,
+      "value": "[\"Apple\", \"Banana\", \"Cherry\", \"Date\", \"Elderberry\", \"Fig\", \"Grape\"]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4100,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4118,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4220,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4284,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4308,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4336,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4363,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4393,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4428,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4439,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4462,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4477,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4515,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4655,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4703,
+      "length": 11,
+      "value": "\"textfield\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4729,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4747,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4758,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4768,
+      "length": 8,
+      "value": "\"aabbcc\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 6,
+      "value": "\"atom\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4991,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 5000,
+      "length": 8,
+      "value": "\"ff0000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 5048,
+      "length": 8,
+      "value": "\"ffff00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 5068,
+      "length": 4,
+      "value": "\"16\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestions.swift",
+      "kind": "StringLiteral",
+      "offset": 5086,
+      "length": 5,
+      "value": "\"400\""
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCard.swift",
       "kind": "StringLiteral",
       "offset": 3302,

@@ -272,6 +272,7 @@ public struct RadioButtonData {
   public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework17SearchSuggestionsV4bodyQrvp", 0) __
 }
 
+
 @_Concurrency.MainActor @preconcurrency public struct VerticalCard : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(tokens: LiveUIFramework.VerticalCardTokens, data: LiveUIFramework.VerticalCardData, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
