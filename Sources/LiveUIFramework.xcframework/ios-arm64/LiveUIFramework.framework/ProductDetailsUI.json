@@ -1,0 +1,20 @@
+{
+  "screen": "ProductDetails",
+  "components": [
+    {
+      "type": "image",
+      "dataKey": "productImage",
+      "style": { "width": "100%", "height": "200px" }
+    },
+    {
+      "type": "text",
+      "dataKey": "productName",
+      "style": { "fontSize": "20px", "fontWeight": "bold" }
+    },
+    {
+      "type": "text",
+      "dataKey": "productPrice",
+      "style": { "color": "green", "fontSize": "16px" }
+    }
+  ]
+}

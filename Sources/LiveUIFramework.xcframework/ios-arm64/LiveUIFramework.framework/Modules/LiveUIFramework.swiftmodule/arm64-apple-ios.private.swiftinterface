@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name LiveUIFramework
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name LiveUIFramework
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
 import Foundation
 @_exported import LiveUIFramework
 import Swift
@@ -87,14 +88,49 @@ public struct VerticalCardLaneData : Swift.Identifiable {
   public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework15SecureTextInputV4bodyQrvp", 0) __
 }
 
-public struct Atom : Swift.Codable, Swift.Hashable {
-  public init(itemName: Swift.String? = nil, type: Swift.String? = nil, version: Swift.String? = nil, cornerRadiusTopRight: Swift.Int? = nil, cornerRadiusTopLeft: Swift.Int? = nil, cornerRadiusBottomRight: Swift.Int? = nil, cornerRadiusBottomLeft: Swift.Int? = nil, paddingLeft: Swift.Int? = nil, paddingTop: Swift.Int? = nil, paddingRight: Swift.Int? = nil, paddingBottom: Swift.Int? = nil, width: Swift.Int? = nil, relativeWidth: CoreFoundation.CGFloat? = nil, height: Swift.Int? = nil, relativeHeight: CoreFoundation.CGFloat? = nil, fill: Swift.String? = nil, opacity: CoreFoundation.CGFloat? = nil, stroke: Swift.String? = nil, strokeWidth: Swift.Int? = nil, strokeOpacity: CoreFoundation.CGFloat? = nil, backgroundColor: Swift.String? = nil, focusColor: Swift.String? = nil, objectId: Swift.String? = nil, font: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.String? = nil, alignment: Swift.String? = nil, multilineAlignment: Swift.String? = nil, aspectRatioType: Swift.String? = nil, numberOfColumns: Swift.Int? = nil, horizontalSpacing: Swift.Int? = nil, verticalSpacing: Swift.Int? = nil)
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: LiveUIFramework.Atom, b: LiveUIFramework.Atom) -> Swift.Bool
+public struct GradientStop : Swift.Codable, Swift.Hashable {
+  public static func == (a: LiveUIFramework.GradientStop, b: LiveUIFramework.GradientStop) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Gradient : Swift.Codable, Swift.Hashable {
+  public static func == (a: LiveUIFramework.Gradient, b: LiveUIFramework.Gradient) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum StringOrInt : Swift.Codable, Swift.Hashable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: LiveUIFramework.StringOrInt, b: LiveUIFramework.StringOrInt) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Atom : Swift.Codable, Swift.Hashable {
+  public init(itemName: Swift.String? = nil, type: Swift.String? = nil, version: Swift.String? = nil, cornerRadiusTopRight: Swift.Int? = nil, cornerRadiusTopLeft: Swift.Int? = nil, cornerRadiusBottomRight: Swift.Int? = nil, cornerRadiusBottomLeft: Swift.Int? = nil, paddingLeft: Swift.Int? = nil, paddingTop: Swift.Int? = nil, paddingRight: Swift.Int? = nil, paddingBottom: Swift.Int? = nil, width: Swift.Int? = nil, relativeWidth: Swift.Double? = nil, height: Swift.Int? = nil, relativeHeight: Swift.Double? = nil, fill: Swift.String? = nil, opacity: Swift.Double? = nil, stroke: Swift.String? = nil, strokeWidth: Swift.Int? = nil, strokeOpacity: Swift.Double? = nil, backgroundColor: Swift.String? = nil, focusColor: Swift.String? = nil, objectId: Swift.String? = nil, font: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.String? = nil, alignment: Swift.String? = nil, multilineAlignment: Swift.String? = nil, aspectRatioType: Swift.String? = nil, numberOfColumns: Swift.Int? = nil, horizontalSpacing: Swift.Int? = nil, verticalSpacing: Swift.Int? = nil, gradient: LiveUIFramework.Gradient? = nil, isHidden: Swift.Bool? = nil, textAlign: Swift.String? = nil, marginBottom: Swift.Int? = nil, marginTop: Swift.Int? = nil, flexDirection: Swift.String? = nil, display: Swift.String? = nil, justifyContent: Swift.String? = nil, alignItems: Swift.String? = nil, alignSelf: Swift.String? = nil, position: Swift.String? = nil, zIndex: Swift.Int? = nil)
+  public static func == (a: LiveUIFramework.Atom, b: LiveUIFramework.Atom) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UIComponent : Swift.Identifiable, Swift.Codable {
+  public let id: Swift.String
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 
@@ -155,6 +191,15 @@ public struct MultilineRowItemData : Swift.Identifiable {
   public let id: Foundation.UUID
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
   public typealias ID = Foundation.UUID
+}
+
+
+@_Concurrency.MainActor @preconcurrency public struct DynamicScreen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(screen: Swift.String, data: [Swift.String : Swift.String], action: @escaping (LiveUIFramework.UIAction) -> Swift.Void, customViews: [Swift.String : SwiftUICore.AnyView] = [:])
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework13DynamicScreenV4bodyQrvp", 0) __
 }
 
 
@@ -225,6 +270,17 @@ public struct DescriptionCardTokens {
 
 
 
+@_Concurrency.MainActor @preconcurrency public struct OnboardingFlowView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var projectId: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var email: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var customViews: [Swift.String : SwiftUICore.AnyView]
+  @_Concurrency.MainActor @preconcurrency public var onFinish: ([Swift.String : Any]) -> Swift.Void
+  @_Concurrency.MainActor @preconcurrency public init(projectId: Swift.String, email: Swift.String, customViews: [Swift.String : SwiftUICore.AnyView] = [:], onFinish: @escaping ([Swift.String : Any]) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s15LiveUIFramework18OnboardingFlowViewV4bodyQrvp", 0) __
+}
 public struct VerticalCardCarouselData : Swift.Identifiable {
   public let id: Swift.String
   public init(id: Swift.String, data: [LiveUIFramework.VerticalCardData])
@@ -252,6 +308,11 @@ public struct RapidAppCallback {
   public let value: Swift.String
   public init(key: Swift.String, value: Swift.String)
 }
+public struct LiveUIScreen : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+
 
 @_Concurrency.MainActor @preconcurrency public struct Progress : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(data: LiveUIFramework.ProgressData, tokens: LiveUIFramework.ProgressTokens)
@@ -298,6 +359,10 @@ public struct RowItemData {
   public let id: Swift.String?
   public init(id: Swift.String? = UUID().uuidString, centerSlot: [Swift.String])
 }
+public struct UIAction : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct VerticalCardData : Swift.Identifiable {
   public let id: Swift.String?
   public init(id: Swift.String? = UUID().uuidString, background: [Swift.String] = [], leadingSlot: [Swift.String] = [], centerSlot: [Swift.String] = [], trailingSlot: [Swift.String] = [], extraSlot1: [Swift.String] = [], extraSlot2: [Swift.String] = [], extraSlot3: [Swift.String] = [], extraSlot4: [Swift.String] = [], overlay: [Swift.String] = [])
@@ -331,7 +396,9 @@ public struct TextInputData {
 public struct SDK {
   public static func configure(email: Swift.String, projectId: Swift.String) async
   public static func configure(apiKey: Swift.String) async
+  public static var liveUiScreens: [LiveUIFramework.LiveUIScreen]
   public static func doSomeWork()
+  public static func loadLiveUiData(email: Swift.String, projectId: Swift.String) async
   public static func tokens(for label: Swift.String) -> Any?
 }
 public struct CheckButtonData {
@@ -350,6 +417,7 @@ public struct DescriptionCardData : Swift.Identifiable {
 public struct RadioButtonTokens {
   public init(background: LiveUIFramework.Atom, leadingSlot: LiveUIFramework.Atom, centerSlot: LiveUIFramework.Atom, trailingSlot: [LiveUIFramework.Atom])
 }
+
 @_Concurrency.MainActor @preconcurrency public struct CheckButton : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(data: LiveUIFramework.CheckButtonData, tokens: LiveUIFramework.CheckButtonTokens, callback: @escaping (LiveUIFramework.RapidAppCallback) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
@@ -403,10 +471,12 @@ extension LiveUIFramework.VerticalGrid : Swift.Sendable {}
 extension LiveUIFramework.SecureTextInput : Swift.Sendable {}
 extension LiveUIFramework.VerticalCardLane : Swift.Sendable {}
 extension LiveUIFramework.ProfileNavItem : Swift.Sendable {}
+extension LiveUIFramework.DynamicScreen : Swift.Sendable {}
 extension LiveUIFramework.TextInput : Swift.Sendable {}
 extension LiveUIFramework.ImageCard : Swift.Sendable {}
 extension LiveUIFramework.RowList : Swift.Sendable {}
 extension LiveUIFramework.VerticalCardRow : Swift.Sendable {}
+extension LiveUIFramework.OnboardingFlowView : Swift.Sendable {}
 extension LiveUIFramework.DescriptionCard : Swift.Sendable {}
 extension LiveUIFramework.Progress : Swift.Sendable {}
 extension LiveUIFramework.SearchSuggestions : Swift.Sendable {}

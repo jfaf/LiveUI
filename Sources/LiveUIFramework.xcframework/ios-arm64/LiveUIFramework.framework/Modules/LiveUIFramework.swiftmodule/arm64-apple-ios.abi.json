@@ -1712,13 +1712,733 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "GradientStop",
+        "printedName": "GradientStop",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GradientStop",
+                "printedName": "LiveUIFramework.GradientStop",
+                "usr": "s:15LiveUIFramework12GradientStopV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework12GradientStopV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15LiveUIFramework12GradientStopV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework12GradientStopV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15LiveUIFramework12GradientStopV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework12GradientStopV9hashValueSivp",
+            "mangledName": "$s15LiveUIFramework12GradientStopV9hashValueSivp",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework12GradientStopV9hashValueSivg",
+                "mangledName": "$s15LiveUIFramework12GradientStopV9hashValueSivg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework12GradientStopV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15LiveUIFramework12GradientStopV4hash4intoys6HasherVz_tF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GradientStop",
+                "printedName": "LiveUIFramework.GradientStop",
+                "usr": "s:15LiveUIFramework12GradientStopV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GradientStop",
+                "printedName": "LiveUIFramework.GradientStop",
+                "usr": "s:15LiveUIFramework12GradientStopV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework12GradientStopV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15LiveUIFramework12GradientStopV2eeoiySbAC_ACtFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework12GradientStopV",
+        "mangledName": "$s15LiveUIFramework12GradientStopV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Gradient",
+        "printedName": "Gradient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Gradient",
+                "printedName": "LiveUIFramework.Gradient",
+                "usr": "s:15LiveUIFramework8GradientV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework8GradientV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15LiveUIFramework8GradientV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework8GradientV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15LiveUIFramework8GradientV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework8GradientV9hashValueSivp",
+            "mangledName": "$s15LiveUIFramework8GradientV9hashValueSivp",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework8GradientV9hashValueSivg",
+                "mangledName": "$s15LiveUIFramework8GradientV9hashValueSivg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework8GradientV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15LiveUIFramework8GradientV4hash4intoys6HasherVz_tF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Gradient",
+                "printedName": "LiveUIFramework.Gradient",
+                "usr": "s:15LiveUIFramework8GradientV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Gradient",
+                "printedName": "LiveUIFramework.Gradient",
+                "usr": "s:15LiveUIFramework8GradientV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework8GradientV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15LiveUIFramework8GradientV2eeoiySbAC_ACtFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework8GradientV",
+        "mangledName": "$s15LiveUIFramework8GradientV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StringOrInt",
+        "printedName": "StringOrInt",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "string",
+            "printedName": "string",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LiveUIFramework.StringOrInt.Type) -> (Swift.String) -> LiveUIFramework.StringOrInt",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> LiveUIFramework.StringOrInt",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringOrInt",
+                        "printedName": "LiveUIFramework.StringOrInt",
+                        "usr": "s:15LiveUIFramework11StringOrIntO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LiveUIFramework.StringOrInt.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringOrInt",
+                        "printedName": "LiveUIFramework.StringOrInt",
+                        "usr": "s:15LiveUIFramework11StringOrIntO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15LiveUIFramework11StringOrIntO6stringyACSScACmF",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO6stringyACSScACmF",
+            "moduleName": "LiveUIFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LiveUIFramework.StringOrInt.Type) -> (Swift.Int) -> LiveUIFramework.StringOrInt",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> LiveUIFramework.StringOrInt",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringOrInt",
+                        "printedName": "LiveUIFramework.StringOrInt",
+                        "usr": "s:15LiveUIFramework11StringOrIntO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LiveUIFramework.StringOrInt.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StringOrInt",
+                        "printedName": "LiveUIFramework.StringOrInt",
+                        "usr": "s:15LiveUIFramework11StringOrIntO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15LiveUIFramework11StringOrIntO3intyACSicACmF",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO3intyACSicACmF",
+            "moduleName": "LiveUIFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StringOrInt",
+                "printedName": "LiveUIFramework.StringOrInt",
+                "usr": "s:15LiveUIFramework11StringOrIntO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework11StringOrIntO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework11StringOrIntO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework11StringOrIntO9hashValueSivp",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO9hashValueSivp",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework11StringOrIntO9hashValueSivg",
+                "mangledName": "$s15LiveUIFramework11StringOrIntO9hashValueSivg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework11StringOrIntO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO4hash4intoys6HasherVz_tF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StringOrInt",
+                "printedName": "LiveUIFramework.StringOrInt",
+                "usr": "s:15LiveUIFramework11StringOrIntO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StringOrInt",
+                "printedName": "LiveUIFramework.StringOrInt",
+                "usr": "s:15LiveUIFramework11StringOrIntO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework11StringOrIntO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15LiveUIFramework11StringOrIntO2eeoiySbAC_ACtFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15LiveUIFramework11StringOrIntO",
+        "mangledName": "$s15LiveUIFramework11StringOrIntO",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Atom",
         "printedName": "Atom",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(itemName:type:version:cornerRadiusTopRight:cornerRadiusTopLeft:cornerRadiusBottomRight:cornerRadiusBottomLeft:paddingLeft:paddingTop:paddingRight:paddingBottom:width:relativeWidth:height:relativeHeight:fill:opacity:stroke:strokeWidth:strokeOpacity:backgroundColor:focusColor:objectId:font:fontSize:fontWeight:alignment:multilineAlignment:aspectRatioType:numberOfColumns:horizontalSpacing:verticalSpacing:)",
+            "printedName": "init(itemName:type:version:cornerRadiusTopRight:cornerRadiusTopLeft:cornerRadiusBottomRight:cornerRadiusBottomLeft:paddingLeft:paddingTop:paddingRight:paddingBottom:width:relativeWidth:height:relativeHeight:fill:opacity:stroke:strokeWidth:strokeOpacity:backgroundColor:focusColor:objectId:font:fontSize:fontWeight:alignment:multilineAlignment:aspectRatioType:numberOfColumns:horizontalSpacing:verticalSpacing:gradient:isHidden:textAlign:marginBottom:marginTop:flexDirection:display:justifyContent:alignItems:alignSelf:position:zIndex:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1909,13 +2629,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CoreGraphics.CGFloat?",
+                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -1939,13 +2659,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CoreGraphics.CGFloat?",
+                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -1969,178 +2689,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CoreGraphics.CGFloat?",
+                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreGraphics.CGFloat?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -2179,6 +2734,156 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.Int?",
                 "children": [
                   {
@@ -2186,6 +2891,201 @@
                     "name": "Int",
                     "printedName": "Swift.Int",
                     "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LiveUIFramework.Gradient?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gradient",
+                    "printedName": "LiveUIFramework.Gradient",
+                    "usr": "s:15LiveUIFramework8GradientV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -2208,8 +3108,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioType15numberOfColumns17horizontalSpacing15verticalSpacingACSSSg_A8_A8_SiSgA9_A9_A9_A9_A9_A9_A9_A9_14CoreFoundation7CGFloatVSgA9_A13_A8_A13_A8_A9_A13_A8_A8_A8_A8_A8_A8_A8_A8_A8_A9_A9_A9_tcfc",
-            "mangledName": "$s15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioType15numberOfColumns17horizontalSpacing15verticalSpacingACSSSg_A8_A8_SiSgA9_A9_A9_A9_A9_A9_A9_A9_12CoreGraphics7CGFloatVSgA9_A13_A8_A13_A8_A9_A13_A8_A8_A8_A8_A8_A8_A8_A8_A8_A9_A9_A9_tcfc",
+            "usr": "s:15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioType15numberOfColumns17horizontalSpacing15verticalSpacing8gradient8isHidden9textAlign06marginM006marginJ013flexDirection7display14justifyContent10alignItems9alignSelf8position6zIndexACSSSg_A20_A20_SiSgA21_A21_A21_A21_A21_A21_A21_A21_SdSgA21_A22_A20_A22_A20_A21_A22_A20_A20_A20_A20_A20_A20_A20_A20_A20_A21_A21_A21_AA8GradientVSgSbSgA20_A21_A21_A20_A20_A20_A20_A20_A20_A21_tcfc",
+            "mangledName": "$s15LiveUIFramework4AtomV8itemName4type7version20cornerRadiusTopRight0hiJ4Left0hi6BottomK00himL007paddingL00nJ00nK00nM05width13relativeWidth6height0P6Height4fill7opacity6stroke0vQ00V7Opacity15backgroundColor05focusY08objectId4font8fontSize10fontWeight9alignment18multilineAlignment15aspectRatioType15numberOfColumns17horizontalSpacing15verticalSpacing8gradient8isHidden9textAlign06marginM006marginJ013flexDirection7display14justifyContent10alignItems9alignSelf8position6zIndexACSSSg_A20_A20_SiSgA21_A21_A21_A21_A21_A21_A21_A21_SdSgA21_A22_A20_A22_A20_A21_A22_A20_A20_A20_A20_A20_A20_A20_A20_A20_A21_A21_A21_AA8GradientVSgSbSgA20_A21_A21_A20_A20_A20_A20_A20_A20_A21_tcfc",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
               "AccessControl"
@@ -2413,6 +3313,177 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIComponent",
+        "printedName": "UIComponent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework11UIComponentV2idSSvp",
+            "mangledName": "$s15LiveUIFramework11UIComponentV2idSSvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework11UIComponentV2idSSvg",
+                "mangledName": "$s15LiveUIFramework11UIComponentV2idSSvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIComponent",
+                "printedName": "LiveUIFramework.UIComponent",
+                "usr": "s:15LiveUIFramework11UIComponentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework11UIComponentV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15LiveUIFramework11UIComponentV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework11UIComponentV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15LiveUIFramework11UIComponentV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework11UIComponentV",
+        "mangledName": "$s15LiveUIFramework11UIComponentV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -2781,6 +3852,23 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework"
       },
       {
         "kind": "Import",
@@ -4066,6 +5154,228 @@
         "moduleName": "LiveUIFramework",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DynamicScreen",
+        "printedName": "DynamicScreen",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(screen:data:action:customViews:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DynamicScreen",
+                "printedName": "LiveUIFramework.DynamicScreen",
+                "usr": "s:15LiveUIFramework13DynamicScreenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LiveUIFramework.UIAction) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIAction",
+                    "printedName": "LiveUIFramework.UIAction",
+                    "usr": "s:15LiveUIFramework8UIActionV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : SwiftUI.AnyView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework13DynamicScreenV6screen4data6action11customViewsACSS_SDyS2SGyAA8UIActionVcSDySS7SwiftUI7AnyViewVGtcfc",
+            "mangledName": "$s15LiveUIFramework13DynamicScreenV6screen4data6action11customViewsACSS_SDyS2SGyAA8UIActionVcSDySS7SwiftUI7AnyViewVGtcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework13DynamicScreenV4bodyQrvp",
+            "mangledName": "$s15LiveUIFramework13DynamicScreenV4bodyQrvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework13DynamicScreenV4bodyQrvg",
+                "mangledName": "$s15LiveUIFramework13DynamicScreenV4bodyQrvg",
+                "moduleName": "LiveUIFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework13DynamicScreenV",
+        "mangledName": "$s15LiveUIFramework13DynamicScreenV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -5473,6 +6783,693 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OnboardingFlowView",
+        "printedName": "OnboardingFlowView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "projectId",
+            "printedName": "projectId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework18OnboardingFlowViewV9projectIdSSvp",
+            "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV9projectIdSSvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV9projectIdSSvg",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV9projectIdSSvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV9projectIdSSvs",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV9projectIdSSvs",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV9projectIdSSvM",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV9projectIdSSvM",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework18OnboardingFlowViewV5emailSSvp",
+            "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV5emailSSvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV5emailSSvg",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV5emailSSvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV5emailSSvs",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV5emailSSvs",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV5emailSSvM",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV5emailSSvM",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customViews",
+            "printedName": "customViews",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : SwiftUI.AnyView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvp",
+            "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : SwiftUI.AnyView]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvg",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : SwiftUI.AnyView]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvs",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvs",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvM",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV11customViewsSDySS7SwiftUI03AnyE0VGvM",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onFinish",
+            "printedName": "onFinish",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvp",
+            "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvg",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvs",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvs",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvM",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV8onFinishyySDySSypGcvM",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(projectId:email:customViews:onFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OnboardingFlowView",
+                "printedName": "LiveUIFramework.OnboardingFlowView",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : SwiftUI.AnyView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework18OnboardingFlowViewV9projectId5email11customViews8onFinishACSS_SSSDySS7SwiftUI03AnyE0VGySDySSypGctcfc",
+            "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV9projectId5email11customViews8onFinishACSS_SSSDySS7SwiftUI03AnyE0VGySDySSypGctcfc",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework18OnboardingFlowViewV4bodyQrvp",
+            "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV4bodyQrvp",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework18OnboardingFlowViewV4bodyQrvg",
+                "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV4bodyQrvg",
+                "moduleName": "LiveUIFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework18OnboardingFlowViewV",
+        "mangledName": "$s15LiveUIFramework18OnboardingFlowViewV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5630,8 +7627,45 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
@@ -6162,6 +8196,121 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveUIScreen",
+        "printedName": "LiveUIScreen",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveUIScreen",
+                "printedName": "LiveUIFramework.LiveUIScreen",
+                "usr": "s:15LiveUIFramework0A8UIScreenV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework0A8UIScreenV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15LiveUIFramework0A8UIScreenV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework0A8UIScreenV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15LiveUIFramework0A8UIScreenV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework0A8UIScreenV",
+        "mangledName": "$s15LiveUIFramework0A8UIScreenV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "LiveUIFramework",
         "declAttributes": [
@@ -7085,6 +9234,111 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UIAction",
+        "printedName": "UIAction",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIAction",
+                "printedName": "LiveUIFramework.UIAction",
+                "usr": "s:15LiveUIFramework8UIActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15LiveUIFramework8UIActionV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s15LiveUIFramework8UIActionV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework8UIActionV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s15LiveUIFramework8UIActionV6encode2toys7Encoder_p_tKF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15LiveUIFramework8UIActionV",
+        "mangledName": "$s15LiveUIFramework8UIActionV",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "VerticalCardData",
         "printedName": "VerticalCardData",
         "children": [
@@ -7560,6 +9814,26 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -8194,6 +10468,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDK",
         "printedName": "SDK",
@@ -8259,6 +10543,120 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Var",
+            "name": "liveUiScreens",
+            "printedName": "liveUiScreens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LiveUIFramework.LiveUIScreen]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LiveUIScreen",
+                    "printedName": "LiveUIFramework.LiveUIScreen",
+                    "usr": "s:15LiveUIFramework0A8UIScreenV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvpZ",
+            "mangledName": "$s15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvpZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LiveUIFramework.LiveUIScreen]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveUIScreen",
+                        "printedName": "LiveUIFramework.LiveUIScreen",
+                        "usr": "s:15LiveUIFramework0A8UIScreenV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvgZ",
+                "mangledName": "$s15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvgZ",
+                "moduleName": "LiveUIFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LiveUIFramework.LiveUIScreen]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LiveUIScreen",
+                        "printedName": "LiveUIFramework.LiveUIScreen",
+                        "usr": "s:15LiveUIFramework0A8UIScreenV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvsZ",
+                "mangledName": "$s15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvsZ",
+                "moduleName": "LiveUIFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvMZ",
+                "mangledName": "$s15LiveUIFramework3SDKV13liveUiScreensSayAA0A8UIScreenVGvMZ",
+                "moduleName": "LiveUIFramework",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "doSomeWork",
             "printedName": "doSomeWork()",
@@ -8272,6 +10670,39 @@
             "declKind": "Func",
             "usr": "s:15LiveUIFramework3SDKV10doSomeWorkyyFZ",
             "mangledName": "$s15LiveUIFramework3SDKV10doSomeWorkyyFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadLiveUiData",
+            "printedName": "loadLiveUiData(email:projectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework3SDKV04loadA6UiData5email9projectIdySS_SStYaFZ",
+            "mangledName": "$s15LiveUIFramework3SDKV04loadA6UiData5email9projectIdySS_SStYaFZ",
             "moduleName": "LiveUIFramework",
             "static": true,
             "declAttributes": [
@@ -8873,6 +11304,16 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -9603,6 +12044,23 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework"
       },
       {
         "kind": "Import",
@@ -13575,6 +16033,13 @@
       "value": "\"Sample Answer\""
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 179,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/RapidAppPlaygroundiOS\/RapidAppPackage\/Sources\/RapidAppPackage\/Containers\/VerticalCardLane\/VerticalCardLane.swift",
       "kind": "StringLiteral",
       "offset": 1524,
@@ -15236,275 +17701,261 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2004,
+      "offset": 2446,
       "length": 20,
       "value": "\"Relative Width 1.0\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2066,
+      "offset": 2508,
       "length": 9,
       "value": "\"sign_in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2107,
+      "offset": 2549,
       "length": 9,
       "value": "\"Sign in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2132,
+      "offset": 2574,
       "length": 13,
       "value": "\"arrow.right\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2202,
+      "offset": 2644,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2220,
+      "offset": 2662,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2239,
+      "offset": 2681,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2248,
+      "offset": 2690,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2303,
+      "offset": 2745,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2317,
+      "offset": 2759,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2353,
+      "offset": 2795,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2375,
+      "offset": 2817,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2387,
+      "offset": 2829,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2397,
+      "offset": 2839,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2456,
+      "offset": 2898,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2487,
+      "offset": 2929,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2502,
+      "offset": 2944,
       "length": 11,
       "value": "\"Width 150\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2564,
+      "offset": 3006,
       "length": 9,
       "value": "\"sign_in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 3047,
       "length": 9,
       "value": "\"Sign in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2630,
+      "offset": 3072,
       "length": 13,
       "value": "\"arrow.right\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2721,
+      "offset": 3163,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2739,
+      "offset": 3181,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2750,
+      "offset": 3192,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2783,
+      "offset": 3225,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2793,
+      "offset": 3235,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2872,
+      "offset": 3314,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2886,
+      "offset": 3328,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2934,
+      "offset": 3376,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2956,
+      "offset": 3398,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2968,
+      "offset": 3410,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2978,
+      "offset": 3420,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3033,
+      "offset": 3475,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3060,
+      "offset": 3502,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsUrlImage.swift",
       "kind": "IntegerLiteral",
-      "offset": 651,
+      "offset": 764,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsUrlImage.swift",
       "kind": "StringLiteral",
-      "offset": 691,
-      "length": 33,
-      "value": "\"https:\/\/i.imgur.com\/HE26rAZ.png\""
+      "offset": 804,
+      "length": 98,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&w=300&h=300&fit=crop\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsUrlImage.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1195,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsUrlImage.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
+      "offset": 1301,
       "length": 7,
       "value": "\"photo\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsUrlImage.swift",
-      "kind": "StringLiteral",
-      "offset": 1249,
-      "length": 5,
-      "value": "\"fit\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsUrlImage.swift",
-      "kind": "StringLiteral",
-      "offset": 1271,
-      "length": 6,
-      "value": "\"Test\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Layouts\/HorizontalStack.swift",
@@ -15533,6 +17984,90 @@
       "offset": 724,
       "length": 15,
       "value": "\"chevron.right\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "Dictionary",
+      "offset": 409,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 11883,
+      "length": 98,
+      "value": "\"https:\/\/images.unsplash.com\/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&w=300&h=300&fit=crop\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 12274,
+      "length": 7,
+      "value": "\"photo\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 12380,
+      "length": 7,
+      "value": "\"photo\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 12531,
+      "length": 7,
+      "value": "\"Hello\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12620,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12644,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12653,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12666,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 12676,
+      "length": 8,
+      "value": "\"ff0000\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 12694,
+      "length": 8,
+      "value": "\"00FF00\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12717,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/TextInput\/TextInput.swift",
@@ -20995,6 +23530,41 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/OnboardingFlowView.swift",
+      "kind": "Dictionary",
+      "offset": 289,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/OnboardingFlowView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 337,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/OnboardingFlowView.swift",
+      "kind": "Dictionary",
+      "offset": 454,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/OnboardingFlowView.swift",
+      "kind": "Dictionary",
+      "offset": 616,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/LiveUIButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 185,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsCornerRadius.swift",
       "kind": "StringLiteral",
       "offset": 1109,
@@ -21034,21 +23604,21 @@
       "kind": "StringLiteral",
       "offset": 1326,
       "length": 8,
-      "value": "\"000000\""
+      "value": "\"0000ff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsCornerRadius.swift",
       "kind": "IntegerLiteral",
       "offset": 1349,
       "length": 1,
-      "value": "1"
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsCornerRadius.swift",
-      "kind": "FloatLiteral",
-      "offset": 1367,
-      "length": 3,
-      "value": "0.5"
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Mocks\/AppUIJson.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 16069,
+      "value": "\"{\n    \"name\": \"Language Learning App\",\n    \"screens\": [\n        {\n            \"id\": \"home\",\n            \"components\": [\n                {\n                    \"id\": \"vstack\",\n                    \"type\": \"vstack\",\n                    \"style\": { \"spacing\": \"16\" },\n                    \"components\": [\n                        {\n                            \"id\": \"pageTitle\",\n                            \"type\": \"text\",\n                            \"dataKey\": \"pageTitle\",\n                            \"style\": { \n                                \"fontSize\": \"32\", \n                                \"fontWeight\": \"700\",\n                                \"padding\": \"16\"\n                            }\n                        },\n                        {\n                            \"id\": \"spacer1\",\n                            \"type\": \"spacer\",\n                            \"style\": { \n                            }\n                        },\n                        {\n                            \"id\": \"startButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"startButtonText\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"startButtonText\",\n                                    \"style\": {\n                                        \"fill\": \"#FFFFFF\",\n                                        \"fontSize\": \"18\",\n                                        \"fontWeight\": \"600\"\n                                    }\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"stopButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"stopButtonHStack\",\n                                    \"type\": \"hstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"stopIcon\",\n                                            \"type\": \"systemImage\",\n                                            \"dataKey\": \"stopIcon\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"width\": 10,\n                                                \"height\": 10\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"spacer2\",\n                                            \"type\": \"spacer\",\n                                            \"style\": { \n                                            }\n                                        },\n                                        {\n                                            \"id\": \"stopButtonText\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"stopButtonText\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"fontSize\": \"18\",\n                                                \"fontWeight\": \"600\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"lesson1\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"paddingLeft\": 16,\n                                \"paddingTop\": 16,\n                                \"paddingRight\": 16,\n                                \"paddingBottom\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\",\n                                \"width\": 200,\n                                \"height\": 200\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"overlayIcon\",\n                                    \"type\": \"systemImage\",\n                                    \"dataKey\": \"overlayIcon\",\n                                    \"style\": {\n                                        \"fill\": \"#FF0000\",\n                                        \"width\": 48,\n                                        \"height\": 48,\n                                        \"paddingTop\": 8,\n                                        \"paddingRight\": 8\n                                    }\n                                },\n                                {\n                                    \"id\": \"cardVstack\",\n                                    \"type\": \"vstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"lesson1Title\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Title\",\n                                            \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Description\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Description\",\n                                            \"style\": { \n                                                \"fontSize\": \"16\", \n                                                \"paddingLeft\": 8,\n                                                \"paddingRight\": 8\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Difficulty\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Difficulty\",\n                                            \"style\": { \n                                                \"fontSize\": \"14\", \n                                                \"color\": \"#4CAF50\",\n                                                \"fontWeight\": \"500\"\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Action\",\n                                            \"type\": \"button\",\n                                            \"dataKey\": \"lesson1Action\",\n                                            \"style\": {\n                                                \"backgroundColor\": \"#4CAF50\",\n                                                \"padding\": 8,\n                                                \"cornerRadius\": 4\n                                            },\n                                            \"action\": {\n                                                \"type\": \"navigate\",\n                                                \"destination\": \"lessondetail\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson2\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson2Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson2Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson2Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#FFA726\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson2Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson2Action\",\n                                    \"style\": {\n                                        \"fill\": \"#FFA726\",\n                                        \"padding\": 8,\n                                        \"cornerRadius\": 4\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson3\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson3Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson3Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson3Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#F44336\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson3Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson3Action\",\n                                    \"style\": {\n                                        \"fill\": \"#F44336\",\n                                        \"padding\": 8,\n                                        \"cornerRadiusTopLeft\": 12,\n                                        \"cornerRadiusTopRight\": 12,\n                                        \"cornerRadiusBottomLeft\": 12,\n                                        \"cornerRadiusBottomRight\": 12,\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"action\": {\n                \"type\": \"firebaseCall\",\n                \"url\": \"lessons\",\n                \"method\": \"get\"\n            }\n        }\n    ]\n}\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/DescriptionCard\/DescriptionCard.swift",
@@ -22073,32 +24643,67 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Models\/LiveUIScreen.swift",
       "kind": "StringLiteral",
-      "offset": 656,
-      "length": 13,
-      "value": "\"Hello World\""
+      "offset": 305,
+      "length": 29,
+      "value": "\"jacob_fafiolu@hotmail.co.uk\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TestScreens\/ProductDetails.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 6,
+      "value": "\"home\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/TestScreens\/ProductDetails.swift",
+      "kind": "Dictionary",
+      "offset": 382,
+      "length": 351,
+      "value": "[(\"pageTitle\", \"Welcome to Live UI\"), (\"lesson1Title\", \"French\"), (\"lesson1Description\", \"Talk like a native\"), (\"lesson1Difficulty\", \"Easy\"), (\"startButtonText\", \"Start it\"), (\"stopButtonText\", \"Stop it\"), (\"stopIcon\", \"chevron.left\"), (\"overlayIcon\", \"stop\")]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
       "kind": "StringLiteral",
-      "offset": 732,
+      "offset": 656,
+      "length": 31,
+      "value": "\"Unlock Your Ultimate Glow ✨\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
       "length": 8,
       "value": "\"666666\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
       "kind": "StringLiteral",
-      "offset": 752,
+      "offset": 754,
       "length": 4,
-      "value": "\"20\""
+      "value": "\"32\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
       "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 772,
       "length": 5,
       "value": "\"800\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
+      "kind": "StringLiteral",
+      "offset": 799,
+      "length": 6,
+      "value": "\"left\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsText.swift",
+      "kind": "IntegerLiteral",
+      "offset": 836,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/Progress\/Progress.swift",
@@ -27708,6 +30313,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Navigation\/Router.swift",
+      "kind": "Array",
+      "offset": 207,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsImage.swift",
       "kind": "StringLiteral",
       "offset": 1310,
@@ -27776,6 +30388,20 @@
       "offset": 836,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/SDK.swift",
+      "kind": "Array",
+      "offset": 893,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/SDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
+      "length": 81,
+      "value": "\"https:\/\/j1sh1zp7z2.execute-api.eu-central-1.amazonaws.com\/default\/LiveUiGateway\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/CheckButton\/CheckButton.swift",
