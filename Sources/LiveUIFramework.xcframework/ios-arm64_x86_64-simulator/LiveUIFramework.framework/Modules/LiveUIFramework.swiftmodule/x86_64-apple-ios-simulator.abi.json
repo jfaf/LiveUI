@@ -3865,26 +3865,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -7683,6 +7663,26 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "ImageCardTokens",
         "printedName": "ImageCardTokens",
@@ -7955,294 +7955,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Router",
-        "printedName": "Router",
-        "declKind": "Class",
-        "usr": "s:15LiveUIFramework6RouterC",
-        "mangledName": "$s15LiveUIFramework6RouterC",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Route",
-        "printedName": "Route",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "dynamic",
-            "printedName": "dynamic",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LiveUIFramework.Route.Type) -> (Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Route",
-                        "printedName": "LiveUIFramework.Route",
-                        "usr": "s:15LiveUIFramework5RouteO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String, [Swift.String : Swift.String])",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Swift.String]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LiveUIFramework.Route.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Route",
-                        "printedName": "LiveUIFramework.Route",
-                        "usr": "s:15LiveUIFramework5RouteO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
-            "mangledName": "$s15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
-            "moduleName": "LiveUIFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15LiveUIFramework5RouteO9hashValueSivp",
-            "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivp",
-            "moduleName": "LiveUIFramework",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15LiveUIFramework5RouteO9hashValueSivg",
-                "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivg",
-                "moduleName": "LiveUIFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
-            "moduleName": "LiveUIFramework",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Route",
-                "printedName": "LiveUIFramework.Route",
-                "usr": "s:15LiveUIFramework5RouteO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Route",
-                "printedName": "LiveUIFramework.Route",
-                "usr": "s:15LiveUIFramework5RouteO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
-            "moduleName": "LiveUIFramework",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:15LiveUIFramework5RouteO",
-        "mangledName": "$s15LiveUIFramework5RouteO",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           }
         ]
       },
@@ -10375,6 +10087,294 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Route",
+        "printedName": "Route",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dynamic",
+            "printedName": "dynamic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LiveUIFramework.Route.Type) -> (Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Route",
+                        "printedName": "LiveUIFramework.Route",
+                        "usr": "s:15LiveUIFramework5RouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, [Swift.String : Swift.String])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LiveUIFramework.Route.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Route",
+                        "printedName": "LiveUIFramework.Route",
+                        "usr": "s:15LiveUIFramework5RouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
+            "mangledName": "$s15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
+            "moduleName": "LiveUIFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework5RouteO9hashValueSivp",
+            "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivp",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework5RouteO9hashValueSivg",
+                "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "LiveUIFramework.Route",
+                "usr": "s:15LiveUIFramework5RouteO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "LiveUIFramework.Route",
+                "usr": "s:15LiveUIFramework5RouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15LiveUIFramework5RouteO",
+        "mangledName": "$s15LiveUIFramework5RouteO",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Router",
+        "printedName": "Router",
+        "declKind": "Class",
+        "usr": "s:15LiveUIFramework6RouterC",
+        "mangledName": "$s15LiveUIFramework6RouterC",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
           }
         ]
       },
@@ -16961,13 +16961,6 @@
       "offset": 589,
       "length": 15,
       "value": "\"Sample Answer\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Mocks\/AppUIJson.swift",
-      "kind": "StringLiteral",
-      "offset": 153,
-      "length": 16069,
-      "value": "\"{\n    \"name\": \"Language Learning App\",\n    \"screens\": [\n        {\n            \"id\": \"home\",\n            \"components\": [\n                {\n                    \"id\": \"vstack\",\n                    \"type\": \"vstack\",\n                    \"style\": { \"spacing\": \"16\" },\n                    \"components\": [\n                        {\n                            \"id\": \"pageTitle\",\n                            \"type\": \"text\",\n                            \"dataKey\": \"pageTitle\",\n                            \"style\": { \n                                \"fontSize\": \"32\", \n                                \"fontWeight\": \"700\",\n                                \"padding\": \"16\"\n                            }\n                        },\n                        {\n                            \"id\": \"spacer1\",\n                            \"type\": \"spacer\",\n                            \"style\": { \n                            }\n                        },\n                        {\n                            \"id\": \"startButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"startButtonText\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"startButtonText\",\n                                    \"style\": {\n                                        \"fill\": \"#FFFFFF\",\n                                        \"fontSize\": \"18\",\n                                        \"fontWeight\": \"600\"\n                                    }\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"stopButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"stopButtonHStack\",\n                                    \"type\": \"hstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"stopIcon\",\n                                            \"type\": \"systemImage\",\n                                            \"dataKey\": \"stopIcon\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"width\": 10,\n                                                \"height\": 10\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"spacer2\",\n                                            \"type\": \"spacer\",\n                                            \"style\": { \n                                            }\n                                        },\n                                        {\n                                            \"id\": \"stopButtonText\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"stopButtonText\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"fontSize\": \"18\",\n                                                \"fontWeight\": \"600\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"lesson1\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"paddingLeft\": 16,\n                                \"paddingTop\": 16,\n                                \"paddingRight\": 16,\n                                \"paddingBottom\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\",\n                                \"width\": 200,\n                                \"height\": 200\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"overlayIcon\",\n                                    \"type\": \"systemImage\",\n                                    \"dataKey\": \"overlayIcon\",\n                                    \"style\": {\n                                        \"fill\": \"#FF0000\",\n                                        \"width\": 48,\n                                        \"height\": 48,\n                                        \"paddingTop\": 8,\n                                        \"paddingRight\": 8\n                                    }\n                                },\n                                {\n                                    \"id\": \"cardVstack\",\n                                    \"type\": \"vstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"lesson1Title\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Title\",\n                                            \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Description\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Description\",\n                                            \"style\": { \n                                                \"fontSize\": \"16\", \n                                                \"paddingLeft\": 8,\n                                                \"paddingRight\": 8\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Difficulty\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Difficulty\",\n                                            \"style\": { \n                                                \"fontSize\": \"14\", \n                                                \"color\": \"#4CAF50\",\n                                                \"fontWeight\": \"500\"\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Action\",\n                                            \"type\": \"button\",\n                                            \"dataKey\": \"lesson1Action\",\n                                            \"style\": {\n                                                \"backgroundColor\": \"#4CAF50\",\n                                                \"padding\": 8,\n                                                \"cornerRadius\": 4\n                                            },\n                                            \"action\": {\n                                                \"type\": \"navigate\",\n                                                \"destination\": \"lessondetail\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson2\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson2Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson2Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson2Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#FFA726\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson2Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson2Action\",\n                                    \"style\": {\n                                        \"fill\": \"#FFA726\",\n                                        \"padding\": 8,\n                                        \"cornerRadius\": 4\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson3\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson3Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson3Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson3Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#F44336\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson3Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson3Action\",\n                                    \"style\": {\n                                        \"fill\": \"#F44336\",\n                                        \"padding\": 8,\n                                        \"cornerRadiusTopLeft\": 12,\n                                        \"cornerRadiusTopRight\": 12,\n                                        \"cornerRadiusBottomLeft\": 12,\n                                        \"cornerRadiusBottomRight\": 12,\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"action\": {\n                \"type\": \"firebaseCall\",\n                \"url\": \"lessons\",\n                \"method\": \"get\"\n            }\n        }\n    ]\n}\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsButton.swift",
@@ -24551,6 +24544,13 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Mocks\/AppUIJson.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 16069,
+      "value": "\"{\n    \"name\": \"Language Learning App\",\n    \"screens\": [\n        {\n            \"id\": \"home\",\n            \"components\": [\n                {\n                    \"id\": \"vstack\",\n                    \"type\": \"vstack\",\n                    \"style\": { \"spacing\": \"16\" },\n                    \"components\": [\n                        {\n                            \"id\": \"pageTitle\",\n                            \"type\": \"text\",\n                            \"dataKey\": \"pageTitle\",\n                            \"style\": { \n                                \"fontSize\": \"32\", \n                                \"fontWeight\": \"700\",\n                                \"padding\": \"16\"\n                            }\n                        },\n                        {\n                            \"id\": \"spacer1\",\n                            \"type\": \"spacer\",\n                            \"style\": { \n                            }\n                        },\n                        {\n                            \"id\": \"startButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"startButtonText\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"startButtonText\",\n                                    \"style\": {\n                                        \"fill\": \"#FFFFFF\",\n                                        \"fontSize\": \"18\",\n                                        \"fontWeight\": \"600\"\n                                    }\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"stopButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"stopButtonHStack\",\n                                    \"type\": \"hstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"stopIcon\",\n                                            \"type\": \"systemImage\",\n                                            \"dataKey\": \"stopIcon\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"width\": 10,\n                                                \"height\": 10\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"spacer2\",\n                                            \"type\": \"spacer\",\n                                            \"style\": { \n                                            }\n                                        },\n                                        {\n                                            \"id\": \"stopButtonText\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"stopButtonText\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"fontSize\": \"18\",\n                                                \"fontWeight\": \"600\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"lesson1\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"paddingLeft\": 16,\n                                \"paddingTop\": 16,\n                                \"paddingRight\": 16,\n                                \"paddingBottom\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\",\n                                \"width\": 200,\n                                \"height\": 200\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"overlayIcon\",\n                                    \"type\": \"systemImage\",\n                                    \"dataKey\": \"overlayIcon\",\n                                    \"style\": {\n                                        \"fill\": \"#FF0000\",\n                                        \"width\": 48,\n                                        \"height\": 48,\n                                        \"paddingTop\": 8,\n                                        \"paddingRight\": 8\n                                    }\n                                },\n                                {\n                                    \"id\": \"cardVstack\",\n                                    \"type\": \"vstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"lesson1Title\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Title\",\n                                            \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Description\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Description\",\n                                            \"style\": { \n                                                \"fontSize\": \"16\", \n                                                \"paddingLeft\": 8,\n                                                \"paddingRight\": 8\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Difficulty\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Difficulty\",\n                                            \"style\": { \n                                                \"fontSize\": \"14\", \n                                                \"color\": \"#4CAF50\",\n                                                \"fontWeight\": \"500\"\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Action\",\n                                            \"type\": \"button\",\n                                            \"dataKey\": \"lesson1Action\",\n                                            \"style\": {\n                                                \"backgroundColor\": \"#4CAF50\",\n                                                \"padding\": 8,\n                                                \"cornerRadius\": 4\n                                            },\n                                            \"action\": {\n                                                \"type\": \"navigate\",\n                                                \"destination\": \"lessondetail\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson2\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson2Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson2Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson2Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#FFA726\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson2Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson2Action\",\n                                    \"style\": {\n                                        \"fill\": \"#FFA726\",\n                                        \"padding\": 8,\n                                        \"cornerRadius\": 4\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson3\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson3Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson3Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson3Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#F44336\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson3Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson3Action\",\n                                    \"style\": {\n                                        \"fill\": \"#F44336\",\n                                        \"padding\": 8,\n                                        \"cornerRadiusTopLeft\": 12,\n                                        \"cornerRadiusTopRight\": 12,\n                                        \"cornerRadiusBottomLeft\": 12,\n                                        \"cornerRadiusBottomRight\": 12,\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"action\": {\n                \"type\": \"firebaseCall\",\n                \"url\": \"lessons\",\n                \"method\": \"get\"\n            }\n        }\n    ]\n}\""
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/DescriptionCard\/DescriptionCard.swift",
       "kind": "IntegerLiteral",
       "offset": 1364,
@@ -25564,13 +25564,6 @@
       "offset": 6781,
       "length": 26,
       "value": "[\"Gift Card\", \"\", \"100XP\"]"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Navigation\/Router.swift",
-      "kind": "Array",
-      "offset": 214,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestionsData.swift",
@@ -31246,6 +31239,13 @@
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/VerticalCard\/VerticalCardTokens.swift",
       "kind": "Array",
       "offset": 641,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Navigation\/Router.swift",
+      "kind": "Array",
+      "offset": 214,
       "length": 2,
       "value": "[]"
     },
