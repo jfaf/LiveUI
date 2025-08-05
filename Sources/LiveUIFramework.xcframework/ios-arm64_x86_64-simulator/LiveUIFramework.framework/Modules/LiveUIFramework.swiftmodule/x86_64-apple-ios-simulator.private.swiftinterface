@@ -301,6 +301,18 @@ public struct ImageCardTokens {
 
 
 
+@_hasMissingDesignatedInitializers public class Router : Foundation.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public enum Route : Swift.Hashable {
+  case dynamic(Swift.String, [Swift.String : Swift.String])
+  public static func == (a: LiveUIFramework.Route, b: LiveUIFramework.Route) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct SearchSuggestionsData {
   public init(textInputData: LiveUIFramework.TextInputData, suggestions: [Swift.String] = [])
 }
@@ -381,18 +393,6 @@ public struct VerticalCardData : Swift.Identifiable {
 }
 public struct VerticalCardTokens {
   public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], extraSlot1: [LiveUIFramework.Molecule], extraSlot2: [LiveUIFramework.Molecule], extraSlot3: [LiveUIFramework.Molecule], extraSlot4: [LiveUIFramework.Molecule], overlay: [LiveUIFramework.Molecule] = [])
-}
-public enum Route : Swift.Hashable {
-  case dynamic(Swift.String, [Swift.String : Swift.String])
-  public static func == (a: LiveUIFramework.Route, b: LiveUIFramework.Route) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class Router : Foundation.ObservableObject {
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
 }
 public struct FilterTabBarData : Swift.Identifiable {
   public let id: Swift.String?
