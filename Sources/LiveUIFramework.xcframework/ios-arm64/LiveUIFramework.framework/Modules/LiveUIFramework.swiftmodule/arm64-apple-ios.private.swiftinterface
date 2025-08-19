@@ -7,6 +7,7 @@ import Foundation
 @_exported import LiveUIFramework
 import Swift
 import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -182,10 +183,23 @@ public struct InlinePickerTokens {
 
 
 
+public enum Route : Swift.Hashable {
+  case dynamic(Swift.String, [Swift.String : Swift.String])
+  public static func == (a: LiveUIFramework.Route, b: LiveUIFramework.Route) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class Router : Foundation.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
 
 public struct SecureTextInputData {
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
 }
+
 
 
 public struct MultilineRowItemData : Swift.Identifiable {
@@ -382,18 +396,6 @@ public struct VerticalCardData : Swift.Identifiable {
 public struct VerticalCardTokens {
   public init(background: LiveUIFramework.Atom?, leadingSlot: [LiveUIFramework.Molecule], centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], extraSlot1: [LiveUIFramework.Molecule], extraSlot2: [LiveUIFramework.Molecule], extraSlot3: [LiveUIFramework.Molecule], extraSlot4: [LiveUIFramework.Molecule], overlay: [LiveUIFramework.Molecule] = [])
 }
-public enum Route : Swift.Hashable {
-  case dynamic(Swift.String, [Swift.String : Swift.String])
-  public static func == (a: LiveUIFramework.Route, b: LiveUIFramework.Route) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class Router : Foundation.ObservableObject {
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
 public struct FilterTabBarData : Swift.Identifiable {
   public let id: Swift.String?
   public init(id: Swift.String? = UUID().uuidString, centerSlot: [Swift.String])
@@ -484,6 +486,7 @@ public struct Actions {
   public func navigate(to destination: Swift.String?, router: LiveUIFramework.Router)
   public func makeApiCall(url: Swift.String?, method: Swift.String?, body: LiveUIFramework.RequestBody?)
   public func makeFirebaseCall(url: Swift.String?, method: Swift.String?, body: LiveUIFramework.RequestBody?)
+  public func openUrl(urlString: Swift.String?)
 }
 public struct MultilineRowItemTokens {
   public init(background: LiveUIFramework.Atom? = Atom(), leadingSlot: LiveUIFramework.Molecule?, centerSlot: [LiveUIFramework.Molecule], trailingSlot: [LiveUIFramework.Molecule], divider: LiveUIFramework.Molecule?)

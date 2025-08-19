@@ -3865,26 +3865,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4508,6 +4488,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "VerticalCardLane",
         "printedName": "VerticalCardLane",
@@ -4855,6 +4845,294 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Route",
+        "printedName": "Route",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dynamic",
+            "printedName": "dynamic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LiveUIFramework.Route.Type) -> (Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Route",
+                        "printedName": "LiveUIFramework.Route",
+                        "usr": "s:15LiveUIFramework5RouteO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, [Swift.String : Swift.String])",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Swift.String]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LiveUIFramework.Route.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Route",
+                        "printedName": "LiveUIFramework.Route",
+                        "usr": "s:15LiveUIFramework5RouteO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
+            "mangledName": "$s15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
+            "moduleName": "LiveUIFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15LiveUIFramework5RouteO9hashValueSivp",
+            "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivp",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15LiveUIFramework5RouteO9hashValueSivg",
+                "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivg",
+                "moduleName": "LiveUIFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
+            "moduleName": "LiveUIFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "LiveUIFramework.Route",
+                "usr": "s:15LiveUIFramework5RouteO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Route",
+                "printedName": "LiveUIFramework.Route",
+                "usr": "s:15LiveUIFramework5RouteO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
+            "moduleName": "LiveUIFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15LiveUIFramework5RouteO",
+        "mangledName": "$s15LiveUIFramework5RouteO",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Router",
+        "printedName": "Router",
+        "declKind": "Class",
+        "usr": "s:15LiveUIFramework6RouterC",
+        "mangledName": "$s15LiveUIFramework6RouterC",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -4964,6 +5242,186 @@
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -5708,6 +6166,26 @@
             "usr": "s:s12IdentifiableP",
             "mangledName": "$ss12IdentifiableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -7955,294 +8433,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Router",
-        "printedName": "Router",
-        "declKind": "Class",
-        "usr": "s:15LiveUIFramework6RouterC",
-        "mangledName": "$s15LiveUIFramework6RouterC",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Route",
-        "printedName": "Route",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "dynamic",
-            "printedName": "dynamic",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(LiveUIFramework.Route.Type) -> (Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, [Swift.String : Swift.String]) -> LiveUIFramework.Route",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Route",
-                        "printedName": "LiveUIFramework.Route",
-                        "usr": "s:15LiveUIFramework5RouteO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String, [Swift.String : Swift.String])",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Dictionary",
-                            "printedName": "[Swift.String : Swift.String]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:SD"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "LiveUIFramework.Route.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Route",
-                        "printedName": "LiveUIFramework.Route",
-                        "usr": "s:15LiveUIFramework5RouteO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
-            "mangledName": "$s15LiveUIFramework5RouteO7dynamicyACSS_SDyS2SGtcACmF",
-            "moduleName": "LiveUIFramework"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:15LiveUIFramework5RouteO9hashValueSivp",
-            "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivp",
-            "moduleName": "LiveUIFramework",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15LiveUIFramework5RouteO9hashValueSivg",
-                "mangledName": "$s15LiveUIFramework5RouteO9hashValueSivg",
-                "moduleName": "LiveUIFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s15LiveUIFramework5RouteO4hash4intoys6HasherVz_tF",
-            "moduleName": "LiveUIFramework",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Route",
-                "printedName": "LiveUIFramework.Route",
-                "usr": "s:15LiveUIFramework5RouteO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Route",
-                "printedName": "LiveUIFramework.Route",
-                "usr": "s:15LiveUIFramework5RouteO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s15LiveUIFramework5RouteO2eeoiySbAC_ACtFZ",
-            "moduleName": "LiveUIFramework",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:15LiveUIFramework5RouteO",
-        "mangledName": "$s15LiveUIFramework5RouteO",
-        "moduleName": "LiveUIFramework",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           }
         ]
       },
@@ -12701,6 +12891,13 @@
         "moduleName": "LiveUIFramework"
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LiveUIFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Actions",
         "printedName": "Actions",
@@ -12961,6 +13158,40 @@
             "declKind": "Func",
             "usr": "s:15LiveUIFramework7ActionsV16makeFirebaseCall3url6method4bodyySSSg_AhA11RequestBodyVSgtF",
             "mangledName": "$s15LiveUIFramework7ActionsV16makeFirebaseCall3url6method4bodyySSSg_AhA11RequestBodyVSgtF",
+            "moduleName": "LiveUIFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openUrl",
+            "printedName": "openUrl(urlString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15LiveUIFramework7ActionsV7openUrl9urlStringySSSg_tF",
+            "mangledName": "$s15LiveUIFramework7ActionsV7openUrl9urlStringySSSg_tF",
             "moduleName": "LiveUIFramework",
             "declAttributes": [
               "AccessControl"
@@ -15418,441 +15649,441 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 2656,
+      "offset": 2661,
       "length": 25,
       "value": "\"Radio Button unselected\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 2727,
+      "offset": 2732,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 2744,
+      "offset": 2749,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2765,
       "length": 9,
       "value": "\"xPoints\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "Array",
-      "offset": 2785,
+      "offset": 2790,
       "length": 22,
       "value": "[\"20 xP\", \"available\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 2821,
+      "offset": 2826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2931,
+      "offset": 2936,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2955,
+      "offset": 2960,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 2983,
+      "offset": 2988,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3010,
+      "offset": 3015,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3026,
+      "offset": 3031,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3044,
+      "offset": 3049,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "FloatLiteral",
-      "offset": 3063,
+      "offset": 3068,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3076,
+      "offset": 3081,
       "length": 2,
       "value": "68"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3086,
+      "offset": 3091,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3104,
+      "offset": 3109,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3127,
+      "offset": 3132,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3142,
+      "offset": 3147,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3204,
+      "offset": 3209,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3214,
+      "offset": 3219,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3226,
+      "offset": 3231,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3236,
+      "offset": 3241,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3254,
+      "offset": 3259,
       "length": 8,
       "value": "\"E1F958\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3277,
+      "offset": 3282,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3292,
+      "offset": 3297,
       "length": 8,
       "value": "\"00ff00\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3353,
+      "offset": 3358,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3362,
+      "offset": 3367,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3387,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3400,
+      "offset": 3405,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3484,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3499,
+      "offset": 3504,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3517,
+      "offset": 3522,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3568,
+      "offset": 3573,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3582,
       "length": 8,
       "value": "\"4F4F52\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3597,
+      "offset": 3602,
       "length": 4,
       "value": "\"16\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3615,
+      "offset": 3620,
       "length": 5,
       "value": "\"600\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3657,
+      "offset": 3662,
       "length": 23,
       "value": "\"Radio Button selected\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3726,
+      "offset": 3731,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3743,
+      "offset": 3748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 3759,
+      "offset": 3764,
       "length": 9,
       "value": "\"xPoints\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "Array",
-      "offset": 3784,
+      "offset": 3789,
       "length": 4,
       "value": "[\"\"]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 3802,
+      "offset": 3807,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3874,
+      "offset": 3879,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3898,
+      "offset": 3903,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3926,
+      "offset": 3931,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3953,
+      "offset": 3958,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3969,
+      "offset": 3974,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 3987,
+      "offset": 3992,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4006,
+      "offset": 4011,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4019,
+      "offset": 4024,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4029,
+      "offset": 4034,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4047,
+      "offset": 4052,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4070,
+      "offset": 4075,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4085,
+      "offset": 4090,
       "length": 8,
       "value": "\"ff0000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4127,
+      "offset": 4132,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4137,
+      "offset": 4142,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4149,
+      "offset": 4154,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4159,
+      "offset": 4164,
       "length": 8,
       "value": "\"ff0000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4181,
+      "offset": 4186,
       "length": 8,
       "value": "\"00ff00\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 4222,
+      "offset": 4227,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4231,
+      "offset": 4236,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4251,
+      "offset": 4256,
       "length": 4,
       "value": "\"18\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Molecules\/RadioButton\/RadioButton.swift",
       "kind": "StringLiteral",
-      "offset": 4269,
+      "offset": 4274,
       "length": 5,
       "value": "\"600\""
     },
@@ -16961,13 +17192,6 @@
       "offset": 589,
       "length": 15,
       "value": "\"Sample Answer\""
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Mocks\/AppUIJson.swift",
-      "kind": "StringLiteral",
-      "offset": 153,
-      "length": 16069,
-      "value": "\"{\n    \"name\": \"Language Learning App\",\n    \"screens\": [\n        {\n            \"id\": \"home\",\n            \"components\": [\n                {\n                    \"id\": \"vstack\",\n                    \"type\": \"vstack\",\n                    \"style\": { \"spacing\": \"16\" },\n                    \"components\": [\n                        {\n                            \"id\": \"pageTitle\",\n                            \"type\": \"text\",\n                            \"dataKey\": \"pageTitle\",\n                            \"style\": { \n                                \"fontSize\": \"32\", \n                                \"fontWeight\": \"700\",\n                                \"padding\": \"16\"\n                            }\n                        },\n                        {\n                            \"id\": \"spacer1\",\n                            \"type\": \"spacer\",\n                            \"style\": { \n                            }\n                        },\n                        {\n                            \"id\": \"startButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"startButtonText\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"startButtonText\",\n                                    \"style\": {\n                                        \"fill\": \"#FFFFFF\",\n                                        \"fontSize\": \"18\",\n                                        \"fontWeight\": \"600\"\n                                    }\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"stopButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"stopButtonHStack\",\n                                    \"type\": \"hstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"stopIcon\",\n                                            \"type\": \"systemImage\",\n                                            \"dataKey\": \"stopIcon\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"width\": 10,\n                                                \"height\": 10\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"spacer2\",\n                                            \"type\": \"spacer\",\n                                            \"style\": { \n                                            }\n                                        },\n                                        {\n                                            \"id\": \"stopButtonText\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"stopButtonText\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"fontSize\": \"18\",\n                                                \"fontWeight\": \"600\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"lesson1\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"paddingLeft\": 16,\n                                \"paddingTop\": 16,\n                                \"paddingRight\": 16,\n                                \"paddingBottom\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\",\n                                \"width\": 200,\n                                \"height\": 200\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"overlayIcon\",\n                                    \"type\": \"systemImage\",\n                                    \"dataKey\": \"overlayIcon\",\n                                    \"style\": {\n                                        \"fill\": \"#FF0000\",\n                                        \"width\": 48,\n                                        \"height\": 48,\n                                        \"paddingTop\": 8,\n                                        \"paddingRight\": 8\n                                    }\n                                },\n                                {\n                                    \"id\": \"cardVstack\",\n                                    \"type\": \"vstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"lesson1Title\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Title\",\n                                            \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Description\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Description\",\n                                            \"style\": { \n                                                \"fontSize\": \"16\", \n                                                \"paddingLeft\": 8,\n                                                \"paddingRight\": 8\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Difficulty\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Difficulty\",\n                                            \"style\": { \n                                                \"fontSize\": \"14\", \n                                                \"color\": \"#4CAF50\",\n                                                \"fontWeight\": \"500\"\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Action\",\n                                            \"type\": \"button\",\n                                            \"dataKey\": \"lesson1Action\",\n                                            \"style\": {\n                                                \"backgroundColor\": \"#4CAF50\",\n                                                \"padding\": 8,\n                                                \"cornerRadius\": 4\n                                            },\n                                            \"action\": {\n                                                \"type\": \"navigate\",\n                                                \"destination\": \"lessondetail\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson2\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson2Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson2Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson2Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#FFA726\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson2Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson2Action\",\n                                    \"style\": {\n                                        \"fill\": \"#FFA726\",\n                                        \"padding\": 8,\n                                        \"cornerRadius\": 4\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson3\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson3Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson3Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson3Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#F44336\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson3Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson3Action\",\n                                    \"style\": {\n                                        \"fill\": \"#F44336\",\n                                        \"padding\": 8,\n                                        \"cornerRadiusTopLeft\": 12,\n                                        \"cornerRadiusTopRight\": 12,\n                                        \"cornerRadiusBottomLeft\": 12,\n                                        \"cornerRadiusBottomRight\": 12,\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"action\": {\n                \"type\": \"firebaseCall\",\n                \"url\": \"lessons\",\n                \"method\": \"get\"\n            }\n        }\n    ]\n}\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsButton.swift",
@@ -18601,6 +18825,13 @@
       "value": "\"atom\""
     },
     {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Navigation\/Router.swift",
+      "kind": "Array",
+      "offset": 214,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsPadding.swift",
       "kind": "StringLiteral",
       "offset": 568,
@@ -18638,231 +18869,231 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2446,
+      "offset": 2531,
       "length": 20,
       "value": "\"Relative Width 1.0\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2508,
+      "offset": 2593,
       "length": 9,
       "value": "\"sign_in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2634,
       "length": 9,
       "value": "\"Sign in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2574,
+      "offset": 2659,
       "length": 13,
       "value": "\"arrow.right\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2644,
+      "offset": 2729,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2662,
+      "offset": 2747,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2681,
+      "offset": 2766,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 2775,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2830,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2759,
+      "offset": 2844,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2795,
+      "offset": 2880,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2817,
+      "offset": 2902,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2829,
+      "offset": 2914,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2839,
+      "offset": 2924,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2898,
+      "offset": 2983,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 2929,
+      "offset": 3014,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 2944,
+      "offset": 3029,
       "length": 11,
       "value": "\"Width 150\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3006,
+      "offset": 3091,
       "length": 9,
       "value": "\"sign_in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3047,
+      "offset": 3132,
       "length": 9,
       "value": "\"Sign in\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3157,
       "length": 13,
       "value": "\"arrow.right\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3163,
+      "offset": 3248,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3181,
+      "offset": 3266,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3192,
+      "offset": 3277,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3225,
+      "offset": 3310,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3235,
+      "offset": 3320,
       "length": 8,
       "value": "\"000000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3399,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3413,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3376,
+      "offset": 3461,
       "length": 13,
       "value": "\"systemImage\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3398,
+      "offset": 3483,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3410,
+      "offset": 3495,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "StringLiteral",
-      "offset": 3420,
+      "offset": 3505,
       "length": 8,
       "value": "\"ffffff\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3475,
+      "offset": 3560,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Styles\/DmsFrame.swift",
       "kind": "IntegerLiteral",
-      "offset": 3502,
+      "offset": 3587,
       "length": 1,
       "value": "4"
     },
@@ -18925,86 +19156,128 @@
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "Dictionary",
+      "offset": 340,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "Dictionary",
       "offset": 409,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "Dictionary",
+      "offset": 470,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "StringLiteral",
-      "offset": 12744,
+      "offset": 521,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "Dictionary",
+      "offset": 701,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 6451,
       "length": 98,
       "value": "\"https:\/\/images.unsplash.com\/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&w=300&h=300&fit=crop\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "StringLiteral",
-      "offset": 13135,
+      "offset": 6842,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "StringLiteral",
-      "offset": 13241,
+      "offset": 6948,
       "length": 7,
       "value": "\"photo\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "StringLiteral",
-      "offset": 13392,
+      "offset": 7099,
       "length": 7,
       "value": "\"Hello\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 13481,
+      "offset": 7218,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 13505,
+      "offset": 7242,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 13514,
+      "offset": 7251,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 13527,
+      "offset": 7264,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "StringLiteral",
-      "offset": 13537,
+      "offset": 7274,
       "length": 8,
       "value": "\"ff0000\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "StringLiteral",
-      "offset": 13555,
+      "offset": 7292,
       "length": 8,
       "value": "\"00FF00\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Screen\/DynamicScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 13578,
+      "offset": 7315,
       "length": 1,
       "value": "2"
+    },
+    {
+      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Mocks\/AppUIJson.swift",
+      "kind": "StringLiteral",
+      "offset": 153,
+      "length": 16069,
+      "value": "\"{\n    \"name\": \"Language Learning App\",\n    \"screens\": [\n        {\n            \"id\": \"home\",\n            \"components\": [\n                {\n                    \"id\": \"vstack\",\n                    \"type\": \"vstack\",\n                    \"style\": { \"spacing\": \"16\" },\n                    \"components\": [\n                        {\n                            \"id\": \"pageTitle\",\n                            \"type\": \"text\",\n                            \"dataKey\": \"pageTitle\",\n                            \"style\": { \n                                \"fontSize\": \"32\", \n                                \"fontWeight\": \"700\",\n                                \"padding\": \"16\"\n                            }\n                        },\n                        {\n                            \"id\": \"spacer1\",\n                            \"type\": \"spacer\",\n                            \"style\": { \n                            }\n                        },\n                        {\n                            \"id\": \"startButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"startButtonText\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"startButtonText\",\n                                    \"style\": {\n                                        \"fill\": \"#FFFFFF\",\n                                        \"fontSize\": \"18\",\n                                        \"fontWeight\": \"600\"\n                                    }\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"stopButton\",\n                            \"type\": \"button\",\n                            \"style\": {\n                                \"fill\": \"#2196F3\",\n                                \"paddingLeft\": 16,\n                                \"paddingRight\": 16,\n                                \"cornerRadiusTopRight\": 8,\n                                \"cornerRadiusTopLeft\": 8,\n                                \"cornerRadiusBottomRight\": 8,\n                                \"cornerRadiusBottomLeft\": 8\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"stopButtonHStack\",\n                                    \"type\": \"hstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"stopIcon\",\n                                            \"type\": \"systemImage\",\n                                            \"dataKey\": \"stopIcon\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"width\": 10,\n                                                \"height\": 10\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"spacer2\",\n                                            \"type\": \"spacer\",\n                                            \"style\": { \n                                            }\n                                        },\n                                        {\n                                            \"id\": \"stopButtonText\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"stopButtonText\",\n                                            \"style\": {\n                                                \"fill\": \"#FFFFFF\",\n                                                \"fontSize\": \"18\",\n                                                \"fontWeight\": \"600\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ],\n                            \"actions\": {\n                                \"type\": \"navigate\",\n                                \"destination\": \"lessons\"\n                            }\n                        },\n                        {\n                            \"id\": \"lesson1\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"paddingLeft\": 16,\n                                \"paddingTop\": 16,\n                                \"paddingRight\": 16,\n                                \"paddingBottom\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\",\n                                \"width\": 200,\n                                \"height\": 200\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"overlayIcon\",\n                                    \"type\": \"systemImage\",\n                                    \"dataKey\": \"overlayIcon\",\n                                    \"style\": {\n                                        \"fill\": \"#FF0000\",\n                                        \"width\": 48,\n                                        \"height\": 48,\n                                        \"paddingTop\": 8,\n                                        \"paddingRight\": 8\n                                    }\n                                },\n                                {\n                                    \"id\": \"cardVstack\",\n                                    \"type\": \"vstack\",\n                                    \"style\": {\n                                        \"spacing\": 8\n                                    },\n                                    \"components\": [\n                                        {\n                                            \"id\": \"lesson1Title\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Title\",\n                                            \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Description\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Description\",\n                                            \"style\": { \n                                                \"fontSize\": \"16\", \n                                                \"paddingLeft\": 8,\n                                                \"paddingRight\": 8\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Difficulty\",\n                                            \"type\": \"text\",\n                                            \"dataKey\": \"lesson1Difficulty\",\n                                            \"style\": { \n                                                \"fontSize\": \"14\", \n                                                \"color\": \"#4CAF50\",\n                                                \"fontWeight\": \"500\"\n                                            }\n                                        },\n                                        {\n                                            \"id\": \"lesson1Action\",\n                                            \"type\": \"button\",\n                                            \"dataKey\": \"lesson1Action\",\n                                            \"style\": {\n                                                \"backgroundColor\": \"#4CAF50\",\n                                                \"padding\": 8,\n                                                \"cornerRadius\": 4\n                                            },\n                                            \"action\": {\n                                                \"type\": \"navigate\",\n                                                \"destination\": \"lessondetail\"\n                                            }\n                                        }\n                                    ]\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson2\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson2Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson2Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson2Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson2Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#FFA726\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson2Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson2Action\",\n                                    \"style\": {\n                                        \"fill\": \"#FFA726\",\n                                        \"padding\": 8,\n                                        \"cornerRadius\": 4\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        },\n                        {\n                            \"id\": \"lesson3\",\n                            \"type\": \"card\",\n                            \"style\": {\n                                \"padding\": 16,\n                                \"cornerRadiusTopLeft\": 12,\n                                \"cornerRadiusTopRight\": 12,\n                                \"cornerRadiusBottomLeft\": 12,\n                                \"cornerRadiusBottomRight\": 12,\n                                \"fill\": \"#F5F5F5\"\n                            },\n                            \"components\": [\n                                {\n                                    \"id\": \"lesson3Title\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Title\",\n                                    \"style\": { \"fontSize\": \"24\", \"fontWeight\": \"700\" }\n                                },\n                                {\n                                    \"id\": \"lesson3Description\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Description\",\n                                    \"style\": { \"fontSize\": \"16\", \"padding\": 8 }\n                                },\n                                {\n                                    \"id\": \"lesson3Difficulty\",\n                                    \"type\": \"text\",\n                                    \"dataKey\": \"lesson3Difficulty\",\n                                    \"style\": { \n                                        \"fontSize\": \"14\", \n                                        \"fill\": \"#F44336\",\n                                        \"fontWeight\": \"500\"\n                                    }\n                                },\n                                {\n                                    \"id\": \"lesson3Action\",\n                                    \"type\": \"button\",\n                                    \"dataKey\": \"lesson3Action\",\n                                    \"style\": {\n                                        \"fill\": \"#F44336\",\n                                        \"padding\": 8,\n                                        \"cornerRadiusTopLeft\": 12,\n                                        \"cornerRadiusTopRight\": 12,\n                                        \"cornerRadiusBottomLeft\": 12,\n                                        \"cornerRadiusBottomRight\": 12,\n                                    },\n                                    \"action\": {\n                                        \"type\": \"navigate\",\n                                        \"destination\": \"lessondetail\"\n                                    }\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ],\n            \"action\": {\n                \"type\": \"firebaseCall\",\n                \"url\": \"lessons\",\n                \"method\": \"get\"\n            }\n        }\n    ]\n}\""
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/TextInput\/TextInput.swift",
@@ -19053,28 +19326,28 @@
       "kind": "IntegerLiteral",
       "offset": 3102,
       "length": 1,
-      "value": "8"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/TextInput\/TextInput.swift",
       "kind": "IntegerLiteral",
       "offset": 3126,
       "length": 1,
-      "value": "8"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/TextInput\/TextInput.swift",
       "kind": "IntegerLiteral",
       "offset": 3154,
       "length": 1,
-      "value": "8"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/TextInput\/TextInput.swift",
       "kind": "IntegerLiteral",
       "offset": 3181,
       "length": 1,
-      "value": "8"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/TextInput\/TextInput.swift",
@@ -25564,13 +25837,6 @@
       "offset": 6781,
       "length": 26,
       "value": "[\"Gift Card\", \"\", \"100XP\"]"
-    },
-    {
-      "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Navigation\/Router.swift",
-      "kind": "Array",
-      "offset": 214,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/useruser\/Documents\/LiveUI-iOS\/LiveUIFramework\/LiveUIFramework\/Components\/SearchSuggestions\/SearchSuggestionsData.swift",
