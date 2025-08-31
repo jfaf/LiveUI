@@ -183,18 +183,6 @@ public struct InlinePickerTokens {
 
 
 
-public enum Route : Swift.Hashable {
-  case dynamic(Swift.String, [Swift.String : Swift.String])
-  public static func == (a: LiveUIFramework.Route, b: LiveUIFramework.Route) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@_hasMissingDesignatedInitializers public class Router : Foundation.ObservableObject {
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
 
 public struct SecureTextInputData {
   public init(leadingSlot: [Swift.String], centerSlot: [Swift.String], trailingSlot: [Swift.String])
@@ -467,6 +455,18 @@ public struct Molecule {
 }
 
 
+@_hasMissingDesignatedInitializers public class Router : Foundation.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public enum Route : Swift.Hashable {
+  case dynamic(Swift.String, [Swift.String : Swift.String])
+  public static func == (a: LiveUIFramework.Route, b: LiveUIFramework.Route) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 
 public struct MultilineListTokens {
   public init(tokens: LiveUIFramework.MultilineRowItemTokens, atom: LiveUIFramework.Atom)
